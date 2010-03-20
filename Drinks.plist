@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>default</key>
+	<dict>
+		<key>drink</key>
+		<string>coffee</string>
+		<key>milk</key>
+		<string>condensed</string>
+		<key>strength</key>
+		<string>normal</string>
+		<key>sweetness</key>
+		<string>normal</string>
+		<key>ice</key>
+		<string>no</string>
+	</dict>
+	<key>drink</key>
+	<dict>
+		<key>coffee</key>
+		<string>kopi</string>
+		<key>tea</key>
+		<string>teh</string>
+		<key>milo</key>
+		<string>milo</string>
+		<key>horlicks</key>
+		<string>horlicks</string>
+	</dict>
+	<key>milk</key>
+	<dict>
+		<key>none</key>
+		<string>o</string>
+		<key>condensed</key>
+		<string></string>
+		<key>evaporated</key>
+		<string>see</string>
+	</dict>
+	<key>strength</key>
+	<dict>
+		<key>weak</key>
+		<string>p&apos;oh</string>
+		<key>normal</key>
+		<string></string>
+		<key>strong</key>
+		<string>gao</string>
+	</dict>
+	<key>sweetness</key>
+	<dict>
+		<key>none</key>
+		<string>kosong</string>
+		<key>less</key>
+		<string>siew dai</string>
+		<key>normal</key>
+		<string></string>
+		<key>more</key>
+		<string>ga dai</string>
+	</dict>
+	<key>ice</key>
+	<dict>
+		<key>yes</key>
+		<string>peng</string>
+		<key>no</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
