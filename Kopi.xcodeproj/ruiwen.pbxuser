@@ -39,9 +39,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* KopiViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1314, 1935}}";
-			sepNavSelRange = "{2136, 0}";
-			sepNavVisRange = "{1385, 1657}";
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 1890}}";
+			sepNavSelRange = "{1907, 0}";
+			sepNavVisRange = "{1781, 763}";
 			sepNavWindowFrame = "{{296, 91}, {750, 558}}";
 		};
 	};
@@ -186,6 +186,9 @@
 			E299F6521153920600F8B9C3 /* PBXTextBookmark */ = E299F6521153920600F8B9C3 /* PBXTextBookmark */;
 			E299F661115480E700F8B9C3 /* PBXTextBookmark */ = E299F661115480E700F8B9C3 /* PBXTextBookmark */;
 			E299F662115480EB00F8B9C3 /* PBXTextBookmark */ = E299F662115480EB00F8B9C3 /* PBXTextBookmark */;
+			E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */ = E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */;
+			E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */ = E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */;
+			E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */ = E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */;
 			E2F41E551152279200571B32 = E2F41E551152279200571B32 /* PBXTextBookmark */;
 			E2F41E561152279200571B32 = E2F41E561152279200571B32 /* PBXTextBookmark */;
 			E2F41E5D11522A9D00571B32 = E2F41E5D11522A9D00571B32 /* PBXTextBookmark */;
@@ -1184,6 +1187,36 @@
 		rType = 0;
 		vrLen = 1657;
 		vrLoc = 1385;
+	};
+	E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 66";
+		rLen = 0;
+		rLoc = 2136;
+		rType = 0;
+		vrLen = 1658;
+		vrLoc = 1386;
+	};
+	E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 69";
+		rLen = 0;
+		rLoc = 2233;
+		rType = 0;
+		vrLen = 1668;
+		vrLoc = 1389;
+	};
+	E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 62";
+		rLen = 0;
+		rLoc = 1907;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 1781;
 	};
 	E2BF149B1150B43500E35F42 /* Kopi */ = {
 		isa = PBXExecutable;

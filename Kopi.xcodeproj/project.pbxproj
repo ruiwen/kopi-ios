@@ -15,6 +15,15 @@
 		2899E5220DE3E06400AC0155 /* KopiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* KopiViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* KopiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */; };
+		E299F66B1154AD7800F8B9C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */; };
+		E299F66F1154AD8400F8B9C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */; };
+		E299F6731154AD9000F8B9C3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6721154AD9000F8B9C3 /* AddressBook.framework */; };
+		E299F6771154ADAB00F8B9C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */; };
+		E299F67B1154ADB600F8B9C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */; };
+		E299F67F1154ADC500F8B9C3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F67E1154ADC500F8B9C3 /* MessageUI.framework */; };
+		E299F6861154AEC900F8B9C3 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */; };
+		E299F6871154AEC900F8B9C3 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */; };
+		E299F6901154B03000F8B9C3 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E299F68F1154B03000F8B9C3 /* AdViewController.m */; };
 		E2BF14D41151D5C600E35F42 /* Drinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BF14D31151D5C600E35F42 /* Drinks.plist */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +41,18 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Kopi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kopi_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Kopi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kopi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E299F6721154AD9000F8B9C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E299F67E1154ADC500F8B9C3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		E299F6831154AE4A00F8B9C3 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobDevice.a; path = Classes/libAdMobDevice.a; sourceTree = "<group>"; };
+		E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobSimulator.a; path = Classes/libAdMobSimulator.a; sourceTree = "<group>"; };
+		E299F68E1154B03000F8B9C3 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		E299F68F1154B03000F8B9C3 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		E2BF14D31151D5C600E35F42 /* Drinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Drinks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +64,14 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				E299F66B1154AD7800F8B9C3 /* CoreLocation.framework in Frameworks */,
+				E299F66F1154AD8400F8B9C3 /* QuartzCore.framework in Frameworks */,
+				E299F6731154AD9000F8B9C3 /* AddressBook.framework in Frameworks */,
+				E299F6771154ADAB00F8B9C3 /* AudioToolbox.framework in Frameworks */,
+				E299F67B1154ADB600F8B9C3 /* MediaPlayer.framework in Frameworks */,
+				E299F67F1154ADC500F8B9C3 /* MessageUI.framework in Frameworks */,
+				E299F6861154AEC900F8B9C3 /* libAdMobDevice.a in Frameworks */,
+				E299F6871154AEC900F8B9C3 /* libAdMobSimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +81,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E299F68E1154B03000F8B9C3 /* AdViewController.h */,
+				E299F68F1154B03000F8B9C3 /* AdViewController.m */,
+				E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */,
+				E299F6831154AE4A00F8B9C3 /* AdMobView.h */,
 				1D3623240D0F684500981E51 /* KopiAppDelegate.h */,
 				1D3623250D0F684500981E51 /* KopiAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* KopiViewController.h */,
@@ -103,9 +136,17 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */,
+				E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */,
+				E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */,
+				E299F6721154AD9000F8B9C3 /* AddressBook.framework */,
+				E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */,
+				E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */,
+				E299F67E1154ADC500F8B9C3 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,6 +209,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* KopiAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* KopiViewController.m in Sources */,
+				E299F6901154B03000F8B9C3 /* AdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +226,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Kopi_Prefix.pch;
 				INFOPLIST_FILE = "Kopi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				PRODUCT_NAME = Kopi;
 			};
 			name = Debug;
@@ -196,6 +242,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Kopi_Prefix.pch;
 				INFOPLIST_FILE = "Kopi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
 				PRODUCT_NAME = Kopi;
 			};
 			name = Release;
