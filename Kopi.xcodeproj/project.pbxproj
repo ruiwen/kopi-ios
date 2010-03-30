@@ -15,15 +15,16 @@
 		2899E5220DE3E06400AC0155 /* KopiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* KopiViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* KopiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */; };
+		E240AA3E1161F1C000CF98E3 /* KopiIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E240AA3D1161F1C000CF98E3 /* KopiIcon.png */; };
+		E240AAF11162021A00CF98E3 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E240AAEF1162021A00CF98E3 /* libAdMobDevice.a */; };
+		E240AAF21162021A00CF98E3 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E240AAF01162021A00CF98E3 /* libAdMobSimulator.a */; };
+		E240AB091162026B00CF98E3 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240AB081162026B00CF98E3 /* AdViewController.m */; };
 		E299F66B1154AD7800F8B9C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */; };
 		E299F66F1154AD8400F8B9C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */; };
 		E299F6731154AD9000F8B9C3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6721154AD9000F8B9C3 /* AddressBook.framework */; };
 		E299F6771154ADAB00F8B9C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */; };
 		E299F67B1154ADB600F8B9C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */; };
 		E299F67F1154ADC500F8B9C3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F67E1154ADC500F8B9C3 /* MessageUI.framework */; };
-		E299F6861154AEC900F8B9C3 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */; };
-		E299F6871154AEC900F8B9C3 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */; };
-		E299F6901154B03000F8B9C3 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E299F68F1154B03000F8B9C3 /* AdViewController.m */; };
 		E2BF14D41151D5C600E35F42 /* Drinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BF14D31151D5C600E35F42 /* Drinks.plist */; };
 /* End PBXBuildFile section */
 
@@ -41,18 +42,19 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Kopi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kopi_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Kopi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kopi-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E240AA3D1161F1C000CF98E3 /* KopiIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = KopiIcon.png; path = ../../KopiIcon.png; sourceTree = SOURCE_ROOT; };
+		E240AAEF1162021A00CF98E3 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobDevice.a; path = ../../../iPhone/admob_iphone_sdk/extras/libAdMobDevice.a; sourceTree = SOURCE_ROOT; };
+		E240AAF01162021A00CF98E3 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobSimulator.a; path = ../../../iPhone/admob_iphone_sdk/extras/libAdMobSimulator.a; sourceTree = SOURCE_ROOT; };
+		E240AB051162023A00CF98E3 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobDelegateProtocol.h; path = ../../../iPhone/admob_iphone_sdk/AdMob/AdMobDelegateProtocol.h; sourceTree = SOURCE_ROOT; };
+		E240AB061162025400CF98E3 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobView.h; path = ../../../iPhone/admob_iphone_sdk/AdMob/AdMobView.h; sourceTree = SOURCE_ROOT; };
+		E240AB071162026B00CF98E3 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdViewController.h; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.h; sourceTree = SOURCE_ROOT; };
+		E240AB081162026B00CF98E3 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdViewController.m; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.m; sourceTree = SOURCE_ROOT; };
 		E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E299F6721154AD9000F8B9C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		E299F67E1154ADC500F8B9C3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
-		E299F6831154AE4A00F8B9C3 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
-		E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobDevice.a; path = Classes/libAdMobDevice.a; sourceTree = "<group>"; };
-		E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMobSimulator.a; path = Classes/libAdMobSimulator.a; sourceTree = "<group>"; };
-		E299F68E1154B03000F8B9C3 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
-		E299F68F1154B03000F8B9C3 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		E2BF14D31151D5C600E35F42 /* Drinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Drinks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,8 +72,8 @@
 				E299F6771154ADAB00F8B9C3 /* AudioToolbox.framework in Frameworks */,
 				E299F67B1154ADB600F8B9C3 /* MediaPlayer.framework in Frameworks */,
 				E299F67F1154ADC500F8B9C3 /* MessageUI.framework in Frameworks */,
-				E299F6861154AEC900F8B9C3 /* libAdMobDevice.a in Frameworks */,
-				E299F6871154AEC900F8B9C3 /* libAdMobSimulator.a in Frameworks */,
+				E240AAF11162021A00CF98E3 /* libAdMobDevice.a in Frameworks */,
+				E240AAF21162021A00CF98E3 /* libAdMobSimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +83,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E299F68E1154B03000F8B9C3 /* AdViewController.h */,
-				E299F68F1154B03000F8B9C3 /* AdViewController.m */,
-				E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */,
-				E299F6831154AE4A00F8B9C3 /* AdMobView.h */,
+				E240AB071162026B00CF98E3 /* AdViewController.h */,
+				E240AB081162026B00CF98E3 /* AdViewController.m */,
+				E240AB061162025400CF98E3 /* AdMobView.h */,
+				E240AB051162023A00CF98E3 /* AdMobDelegateProtocol.h */,
 				1D3623240D0F684500981E51 /* KopiAppDelegate.h */,
 				1D3623250D0F684500981E51 /* KopiAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* KopiViewController.h */,
@@ -125,6 +127,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E240AA3D1161F1C000CF98E3 /* KopiIcon.png */,
 				2899E5210DE3E06400AC0155 /* KopiViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Kopi-Info.plist */,
@@ -136,8 +139,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E299F6841154AEC900F8B9C3 /* libAdMobDevice.a */,
-				E299F6851154AEC900F8B9C3 /* libAdMobSimulator.a */,
+				E240AAEF1162021A00CF98E3 /* libAdMobDevice.a */,
+				E240AAF01162021A00CF98E3 /* libAdMobSimulator.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -196,6 +199,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* KopiViewController.xib in Resources */,
 				E2BF14D41151D5C600E35F42 /* Drinks.plist in Resources */,
+				E240AA3E1161F1C000CF98E3 /* KopiIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +213,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* KopiAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* KopiViewController.m in Sources */,
-				E299F6901154B03000F8B9C3 /* AdViewController.m in Sources */,
+				E240AB091162026B00CF98E3 /* AdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +233,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
+					"\"$(SRCROOT)/../../../iPhone/admob_iphone_sdk/extras\"",
 				);
 				PRODUCT_NAME = Kopi;
 			};
@@ -245,6 +250,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
+					"\"$(SRCROOT)/../../../iPhone/admob_iphone_sdk/extras\"",
 				);
 				PRODUCT_NAME = Kopi;
 			};
@@ -276,6 +282,37 @@
 			};
 			name = Release;
 		};
+		E240A9F71161D44B00CF98E3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chua Rui Wen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66BCD93E-EF34-4855-97C3-ED77CD59B4F2";
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Distribution;
+		};
+		E240A9F81161D44B00CF98E3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kopi_Prefix.pch;
+				INFOPLIST_FILE = "Kopi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+					"\"$(SRCROOT)/../../../iPhone/admob_iphone_sdk/extras\"",
+				);
+				PRODUCT_NAME = Kopi;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +321,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				E240A9F81161D44B00CF98E3 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -293,6 +331,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				E240A9F71161D44B00CF98E3 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

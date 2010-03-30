@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface KopiViewController : UIViewController {
 
@@ -18,7 +19,6 @@
 	IBOutlet UIButton *iceSelection;
 	
 	NSDictionary *drinks;
-	NSMutableDictionary *captionList;
 	NSMutableDictionary *selections;
 }
 
@@ -30,19 +30,16 @@
 @property (nonatomic, retain) IBOutlet UIButton *iceSelection;
 
 @property (nonatomic, retain) NSDictionary *drinks;
-@property (nonatomic, retain) NSMutableDictionary *captionList;
 @property (nonatomic, retain) NSMutableDictionary *selections;
 
-- (IBAction)makeRed;
 - (IBAction)setMilk:(id)sender;
 - (IBAction)setStrength:(id)sender;
 - (IBAction)setSweetness:(id)sender;
 - (IBAction)setIced:(id)sender;
 
 - (void)setCaption;
-- (void)addToCaption: key:(NSString *)key sender:(id)sender;
+- (void)addToCaption:(NSString *)key sender:(id)sender;
 
-- (void)doStuff;
 
 @end
 

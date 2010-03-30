@@ -31,24 +31,24 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* KopiViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 735}}";
-			sepNavSelRange = "{992, 0}";
-			sepNavVisRange = "{0, 1271}";
-			sepNavWindowFrame = "{{-465, 1417}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 693}}";
+			sepNavSelRange = "{1121, 0}";
+			sepNavVisRange = "{0, 1164}";
+			sepNavWindowFrame = "{{0, 1366}, {750, 558}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* KopiViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1314, 1890}}";
-			sepNavSelRange = "{1907, 0}";
-			sepNavVisRange = "{1781, 763}";
+			sepNavIntBoundsRect = "{{0, 0}, {1475, 2280}}";
+			sepNavSelRange = "{4607, 1}";
+			sepNavVisRange = "{4498, 231}";
 			sepNavWindowFrame = "{{296, 91}, {750, 558}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = E2BF149B1150B43500E35F42 /* Kopi */;
-		activeSDKPreference = iphonesimulator3.1.3;
+		activeSDKPreference = iphoneos3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Kopi */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Kopi */,
@@ -82,116 +82,106 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 290681153;
-			PBXWorkspaceStateSaveDate = 290681153;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291623938;
+			PBXWorkspaceStateSaveDate = 291623938;
 		};
 		perUserProjectItems = {
-			E25677F711535486009FDC0C = E25677F711535486009FDC0C /* PBXTextBookmark */;
-			E25677FF1153552C009FDC0C = E25677FF1153552C009FDC0C /* PBXTextBookmark */;
-			E25678001153552C009FDC0C = E25678001153552C009FDC0C /* PBXTextBookmark */;
-			E25678011153552C009FDC0C = E25678011153552C009FDC0C /* PBXTextBookmark */;
-			E256780411535545009FDC0C = E256780411535545009FDC0C /* PBXTextBookmark */;
-			E256780F115355A3009FDC0C = E256780F115355A3009FDC0C /* PBXTextBookmark */;
-			E2567810115355A3009FDC0C = E2567810115355A3009FDC0C /* PBXTextBookmark */;
-			E2567811115355A3009FDC0C = E2567811115355A3009FDC0C /* PBXTextBookmark */;
-			E2567818115355F6009FDC0C = E2567818115355F6009FDC0C /* PBXTextBookmark */;
-			E2567819115355F6009FDC0C = E2567819115355F6009FDC0C /* PBXTextBookmark */;
-			E256781A115355F6009FDC0C = E256781A115355F6009FDC0C /* PBXTextBookmark */;
-			E256781B11535691009FDC0C = E256781B11535691009FDC0C /* PBXBookmark */;
-			E256781E115356AB009FDC0C = E256781E115356AB009FDC0C /* PBXTextBookmark */;
-			E256781F115356AB009FDC0C = E256781F115356AB009FDC0C /* PBXTextBookmark */;
-			E2567822115356B5009FDC0C = E2567822115356B5009FDC0C /* PBXTextBookmark */;
-			E2567823115356B5009FDC0C = E2567823115356B5009FDC0C /* PBXTextBookmark */;
-			E2567824115356B5009FDC0C = E2567824115356B5009FDC0C /* PBXTextBookmark */;
-			E2567827115356B5009FDC0C = E2567827115356B5009FDC0C /* PBXTextBookmark */;
-			E256782A115356EF009FDC0C = E256782A115356EF009FDC0C /* PBXTextBookmark */;
-			E256782B115356EF009FDC0C = E256782B115356EF009FDC0C /* PBXTextBookmark */;
-			E256782C115356EF009FDC0C = E256782C115356EF009FDC0C /* PBXTextBookmark */;
-			E256782F115357F4009FDC0C = E256782F115357F4009FDC0C /* PBXTextBookmark */;
-			E2567830115357F4009FDC0C = E2567830115357F4009FDC0C /* PBXTextBookmark */;
-			E2567831115357F4009FDC0C = E2567831115357F4009FDC0C /* PBXTextBookmark */;
-			E25678341153580B009FDC0C = E25678341153580B009FDC0C /* PBXTextBookmark */;
-			E25678371153584B009FDC0C = E25678371153584B009FDC0C /* PBXTextBookmark */;
-			E256783A11535998009FDC0C = E256783A11535998009FDC0C /* PBXTextBookmark */;
-			E256783B11535998009FDC0C = E256783B11535998009FDC0C /* PBXTextBookmark */;
-			E256783C11535998009FDC0C = E256783C11535998009FDC0C /* PBXTextBookmark */;
-			E256783F11535AB9009FDC0C = E256783F11535AB9009FDC0C /* PBXTextBookmark */;
-			E256784011535AB9009FDC0C = E256784011535AB9009FDC0C /* PBXTextBookmark */;
-			E256784111535AB9009FDC0C = E256784111535AB9009FDC0C /* PBXTextBookmark */;
-			E256784411535FEB009FDC0C = E256784411535FEB009FDC0C /* PBXTextBookmark */;
-			E256784511535FEB009FDC0C = E256784511535FEB009FDC0C /* PBXTextBookmark */;
-			E256784611535FEB009FDC0C = E256784611535FEB009FDC0C /* PBXTextBookmark */;
-			E256784B1153601B009FDC0C = E256784B1153601B009FDC0C /* PBXTextBookmark */;
-			E256784C1153601B009FDC0C = E256784C1153601B009FDC0C /* PBXTextBookmark */;
-			E256784D1153601B009FDC0C = E256784D1153601B009FDC0C /* PBXTextBookmark */;
-			E256785011536050009FDC0C = E256785011536050009FDC0C /* PBXTextBookmark */;
-			E2567851115360C0009FDC0C = E2567851115360C0009FDC0C /* PBXTextBookmark */;
-			E2567852115360C0009FDC0C = E2567852115360C0009FDC0C /* PBXTextBookmark */;
-			E2567853115360C5009FDC0C = E2567853115360C5009FDC0C /* PBXTextBookmark */;
-			E2567854115361E4009FDC0C = E2567854115361E4009FDC0C /* PBXTextBookmark */;
-			E256785911536375009FDC0C = E256785911536375009FDC0C /* PBXTextBookmark */;
-			E256785C115363A5009FDC0C = E256785C115363A5009FDC0C /* PBXTextBookmark */;
-			E256785F1153641D009FDC0C = E256785F1153641D009FDC0C /* PBXTextBookmark */;
-			E256786211536431009FDC0C = E256786211536431009FDC0C /* PBXTextBookmark */;
-			E256786711536463009FDC0C = E256786711536463009FDC0C /* PBXTextBookmark */;
-			E256786811536463009FDC0C = E256786811536463009FDC0C /* PBXTextBookmark */;
-			E256786911536463009FDC0C = E256786911536463009FDC0C /* PBXTextBookmark */;
-			E256786A115364FE009FDC0C = E256786A115364FE009FDC0C /* PBXTextBookmark */;
-			E256786B115364FE009FDC0C = E256786B115364FE009FDC0C /* PBXTextBookmark */;
-			E256786C115364FE009FDC0C = E256786C115364FE009FDC0C /* PBXTextBookmark */;
-			E25678701153653C009FDC0C = E25678701153653C009FDC0C /* PBXTextBookmark */;
-			E25678711153653C009FDC0C = E25678711153653C009FDC0C /* PBXTextBookmark */;
-			E25678721153653C009FDC0C = E25678721153653C009FDC0C /* PBXTextBookmark */;
-			E256787311536546009FDC0C = E256787311536546009FDC0C /* PBXTextBookmark */;
-			E256787411536546009FDC0C = E256787411536546009FDC0C /* PBXTextBookmark */;
-			E256787511536553009FDC0C = E256787511536553009FDC0C /* PBXTextBookmark */;
-			E25678761153655F009FDC0C = E25678761153655F009FDC0C /* PBXTextBookmark */;
-			E256787B11536596009FDC0C = E256787B11536596009FDC0C /* PBXTextBookmark */;
-			E256787C11536596009FDC0C = E256787C11536596009FDC0C /* PBXTextBookmark */;
-			E256787D11536AAD009FDC0C = E256787D11536AAD009FDC0C /* PBXTextBookmark */;
-			E256787E11536AAD009FDC0C = E256787E11536AAD009FDC0C /* PBXTextBookmark */;
-			E256787F11536AAD009FDC0C = E256787F11536AAD009FDC0C /* PBXTextBookmark */;
-			E256788011536AAF009FDC0C = E256788011536AAF009FDC0C /* PBXTextBookmark */;
-			E256788111536BA3009FDC0C = E256788111536BA3009FDC0C /* PBXTextBookmark */;
-			E256788211536BA3009FDC0C = E256788211536BA3009FDC0C /* PBXTextBookmark */;
-			E256788311536BA3009FDC0C = E256788311536BA3009FDC0C /* PBXTextBookmark */;
-			E256788411536DAF009FDC0C = E256788411536DAF009FDC0C /* PBXTextBookmark */;
-			E256788511536E37009FDC0C = E256788511536E37009FDC0C /* PBXTextBookmark */;
-			E256788611536E37009FDC0C = E256788611536E37009FDC0C /* PBXTextBookmark */;
-			E256788711536E37009FDC0C = E256788711536E37009FDC0C /* PBXTextBookmark */;
-			E256788A11536F29009FDC0C = E256788A11536F29009FDC0C /* PBXTextBookmark */;
-			E256788B11536F29009FDC0C = E256788B11536F29009FDC0C /* PBXTextBookmark */;
-			E256788C11536F29009FDC0C = E256788C11536F29009FDC0C /* PBXTextBookmark */;
-			E256789511536FA0009FDC0C = E256789511536FA0009FDC0C /* PBXTextBookmark */;
-			E256789611536FA0009FDC0C = E256789611536FA0009FDC0C /* PBXTextBookmark */;
-			E256789711536FA0009FDC0C = E256789711536FA0009FDC0C /* PBXTextBookmark */;
-			E256789A11536FDC009FDC0C = E256789A11536FDC009FDC0C /* PBXTextBookmark */;
-			E256789B11536FDC009FDC0C = E256789B11536FDC009FDC0C /* PBXTextBookmark */;
-			E256789C11536FDC009FDC0C = E256789C11536FDC009FDC0C /* PBXTextBookmark */;
-			E257E0C3115202E90009F96A = E257E0C3115202E90009F96A /* PlistBookmark */;
-			E257E110115222120009F96A = E257E110115222120009F96A /* PBXTextBookmark */;
+			E240A9DE1161D40400CF98E3 /* PBXTextBookmark */ = E240A9DE1161D40400CF98E3 /* PBXTextBookmark */;
+			E240A9E11161D40400CF98E3 /* PlistBookmark */ = E240A9E11161D40400CF98E3 /* PlistBookmark */;
+			E240A9F91161D44F00CF98E3 /* PBXTextBookmark */ = E240A9F91161D44F00CF98E3 /* PBXTextBookmark */;
+			E240A9FA1161D44F00CF98E3 /* PBXTextBookmark */ = E240A9FA1161D44F00CF98E3 /* PBXTextBookmark */;
+			E240A9FB1161D44F00CF98E3 /* PlistBookmark */ = E240A9FB1161D44F00CF98E3 /* PlistBookmark */;
+			E240AA021161D4DA00CF98E3 /* PBXTextBookmark */ = E240AA021161D4DA00CF98E3 /* PBXTextBookmark */;
+			E240AA031161D4DA00CF98E3 /* PlistBookmark */ = E240AA031161D4DA00CF98E3 /* PlistBookmark */;
+			E240AA051161D57B00CF98E3 /* PBXTextBookmark */ = E240AA051161D57B00CF98E3 /* PBXTextBookmark */;
+			E240AA061161D57B00CF98E3 /* PlistBookmark */ = E240AA061161D57B00CF98E3 /* PlistBookmark */;
+			E240AA071161D58D00CF98E3 /* PBXTextBookmark */ = E240AA071161D58D00CF98E3 /* PBXTextBookmark */;
+			E240AA081161D58D00CF98E3 /* PlistBookmark */ = E240AA081161D58D00CF98E3 /* PlistBookmark */;
+			E240AA091161D5A700CF98E3 /* PBXTextBookmark */ = E240AA091161D5A700CF98E3 /* PBXTextBookmark */;
+			E240AA0A1161D5A700CF98E3 /* PlistBookmark */ = E240AA0A1161D5A700CF98E3 /* PlistBookmark */;
+			E240AA0F1161D5F900CF98E3 /* PBXTextBookmark */ = E240AA0F1161D5F900CF98E3 /* PBXTextBookmark */;
+			E240AA101161D5F900CF98E3 /* PlistBookmark */ = E240AA101161D5F900CF98E3 /* PlistBookmark */;
+			E240AA221161E0C400CF98E3 /* PBXTextBookmark */ = E240AA221161E0C400CF98E3 /* PBXTextBookmark */;
+			E240AA231161E0C400CF98E3 /* PBXTextBookmark */ = E240AA231161E0C400CF98E3 /* PBXTextBookmark */;
+			E240AA241161E0C400CF98E3 /* PBXTextBookmark */ = E240AA241161E0C400CF98E3 /* PBXTextBookmark */;
+			E240AA251161E0C400CF98E3 /* PBXTextBookmark */ = E240AA251161E0C400CF98E3 /* PBXTextBookmark */;
+			E240AA461161F1FE00CF98E3 /* PBXTextBookmark */ = E240AA461161F1FE00CF98E3 /* PBXTextBookmark */;
+			E240AA471161F1FE00CF98E3 /* PBXTextBookmark */ = E240AA471161F1FE00CF98E3 /* PBXTextBookmark */;
+			E240AA481161F1FE00CF98E3 /* PBXTextBookmark */ = E240AA481161F1FE00CF98E3 /* PBXTextBookmark */;
+			E240AA491161F1FE00CF98E3 /* PBXBookmark */ = E240AA491161F1FE00CF98E3 /* PBXBookmark */;
+			E240AA4A1161F1FE00CF98E3 /* PBXBookmark */ = E240AA4A1161F1FE00CF98E3 /* PBXBookmark */;
+			E240AA501161F28C00CF98E3 /* PBXBookmark */ = E240AA501161F28C00CF98E3 /* PBXBookmark */;
+			E240AA8D1161F81200CF98E3 /* PBXBookmark */ = E240AA8D1161F81200CF98E3 /* PBXBookmark */;
+			E240AA8E1161F81200CF98E3 /* XCBuildMessageTextBookmark */ = E240AA8E1161F81200CF98E3 /* XCBuildMessageTextBookmark */;
+			E240AA8F1161F81200CF98E3 /* PBXTextBookmark */ = E240AA8F1161F81200CF98E3 /* PBXTextBookmark */;
+			E240AA941161F82900CF98E3 /* PBXTextBookmark */ = E240AA941161F82900CF98E3 /* PBXTextBookmark */;
+			E240AA971161F84200CF98E3 /* PBXTextBookmark */ = E240AA971161F84200CF98E3 /* PBXTextBookmark */;
+			E240AA9A1161F85700CF98E3 /* PBXTextBookmark */ = E240AA9A1161F85700CF98E3 /* PBXTextBookmark */;
+			E240AA9D1161F87400CF98E3 /* PBXTextBookmark */ = E240AA9D1161F87400CF98E3 /* PBXTextBookmark */;
+			E240AAA01161F89300CF98E3 /* PBXTextBookmark */ = E240AAA01161F89300CF98E3 /* PBXTextBookmark */;
+			E240AAA31161F8B400CF98E3 /* PBXTextBookmark */ = E240AAA31161F8B400CF98E3 /* PBXTextBookmark */;
+			E240AAA61161F8E400CF98E3 /* PBXTextBookmark */ = E240AAA61161F8E400CF98E3 /* PBXTextBookmark */;
+			E240AAA91161F8FD00CF98E3 /* PBXTextBookmark */ = E240AAA91161F8FD00CF98E3 /* PBXTextBookmark */;
+			E240AAAA1161F91200CF98E3 /* XCBuildMessageTextBookmark */ = E240AAAA1161F91200CF98E3 /* XCBuildMessageTextBookmark */;
+			E240AAAB1161F91200CF98E3 /* PBXTextBookmark */ = E240AAAB1161F91200CF98E3 /* PBXTextBookmark */;
+			E240AAAE1161F99800CF98E3 /* PBXTextBookmark */ = E240AAAE1161F99800CF98E3 /* PBXTextBookmark */;
+			E240AAB11161F9BA00CF98E3 /* PBXTextBookmark */ = E240AAB11161F9BA00CF98E3 /* PBXTextBookmark */;
+			E240AAB41161FACE00CF98E3 /* PBXTextBookmark */ = E240AAB41161FACE00CF98E3 /* PBXTextBookmark */;
+			E240AAB51161FAEC00CF98E3 /* PBXTextBookmark */ = E240AAB51161FAEC00CF98E3 /* PBXTextBookmark */;
+			E240AAB81161FB2900CF98E3 /* PBXTextBookmark */ = E240AAB81161FB2900CF98E3 /* PBXTextBookmark */;
+			E240AABB1161FB9700CF98E3 /* PBXTextBookmark */ = E240AABB1161FB9700CF98E3 /* PBXTextBookmark */;
+			E240AAC01161FCCD00CF98E3 /* PBXTextBookmark */ = E240AAC01161FCCD00CF98E3 /* PBXTextBookmark */;
+			E240AAC11161FEE500CF98E3 /* PBXTextBookmark */ = E240AAC11161FEE500CF98E3 /* PBXTextBookmark */;
+			E240AACB1161FF4900CF98E3 /* PBXTextBookmark */ = E240AACB1161FF4900CF98E3 /* PBXTextBookmark */;
+			E240AAD21161FFF500CF98E3 /* PBXTextBookmark */ = E240AAD21161FFF500CF98E3 /* PBXTextBookmark */;
+			E240AAD61162002300CF98E3 /* PBXTextBookmark */ = E240AAD61162002300CF98E3 /* PBXTextBookmark */;
+			E240AADC116200D800CF98E3 /* PBXTextBookmark */ = E240AADC116200D800CF98E3 /* PBXTextBookmark */;
+			E240AAE01162012100CF98E3 /* PBXTextBookmark */ = E240AAE01162012100CF98E3 /* PBXTextBookmark */;
+			E240AAE11162012100CF98E3 /* PBXTextBookmark */ = E240AAE11162012100CF98E3 /* PBXTextBookmark */;
+			E240AAE21162012100CF98E3 /* PBXTextBookmark */ = E240AAE21162012100CF98E3 /* PBXTextBookmark */;
+			E240AAEC116201BB00CF98E3 /* PBXTextBookmark */ = E240AAEC116201BB00CF98E3 /* PBXTextBookmark */;
+			E240AAED116201BB00CF98E3 /* PBXTextBookmark */ = E240AAED116201BB00CF98E3 /* PBXTextBookmark */;
+			E240AAEE116201BB00CF98E3 /* PBXTextBookmark */ = E240AAEE116201BB00CF98E3 /* PBXTextBookmark */;
+			E240AB0E116202CB00CF98E3 /* PBXTextBookmark */ = E240AB0E116202CB00CF98E3 /* PBXTextBookmark */;
+			E240AB0F116202CB00CF98E3 /* PBXTextBookmark */ = E240AB0F116202CB00CF98E3 /* PBXTextBookmark */;
+			E240AB10116202CB00CF98E3 /* PBXTextBookmark */ = E240AB10116202CB00CF98E3 /* PBXTextBookmark */;
+			E240AB11116202CB00CF98E3 /* PBXBookmark */ = E240AB11116202CB00CF98E3 /* PBXBookmark */;
+			E240AB12116202CB00CF98E3 /* PBXTextBookmark */ = E240AB12116202CB00CF98E3 /* PBXTextBookmark */;
+			E240AB19116203D200CF98E3 /* PBXTextBookmark */ = E240AB19116203D200CF98E3 /* PBXTextBookmark */;
 			E257E111115222120009F96A = E257E111115222120009F96A /* PBXTextBookmark */;
-			E299F61911538FB500F8B9C3 /* PBXTextBookmark */ = E299F61911538FB500F8B9C3 /* PBXTextBookmark */;
-			E299F61A11538FB500F8B9C3 /* PBXTextBookmark */ = E299F61A11538FB500F8B9C3 /* PBXTextBookmark */;
-			E299F61B11538FB500F8B9C3 /* PBXTextBookmark */ = E299F61B11538FB500F8B9C3 /* PBXTextBookmark */;
-			E299F62711538FE400F8B9C3 /* XCBuildMessageTextBookmark */ = E299F62711538FE400F8B9C3 /* XCBuildMessageTextBookmark */;
-			E299F62811538FE400F8B9C3 /* PBXTextBookmark */ = E299F62811538FE400F8B9C3 /* PBXTextBookmark */;
-			E299F62911538FEF00F8B9C3 /* PBXTextBookmark */ = E299F62911538FEF00F8B9C3 /* PBXTextBookmark */;
-			E299F62E1153904700F8B9C3 /* PBXTextBookmark */ = E299F62E1153904700F8B9C3 /* PBXTextBookmark */;
-			E299F6311153904A00F8B9C3 /* PBXTextBookmark */ = E299F6311153904A00F8B9C3 /* PBXTextBookmark */;
-			E299F6361153906500F8B9C3 /* PBXTextBookmark */ = E299F6361153906500F8B9C3 /* PBXTextBookmark */;
-			E299F6371153906600F8B9C3 /* PBXTextBookmark */ = E299F6371153906600F8B9C3 /* PBXTextBookmark */;
-			E299F63A1153906700F8B9C3 /* PBXTextBookmark */ = E299F63A1153906700F8B9C3 /* PBXTextBookmark */;
-			E299F6471153911100F8B9C3 /* PBXTextBookmark */ = E299F6471153911100F8B9C3 /* PBXTextBookmark */;
-			E299F6521153920600F8B9C3 /* PBXTextBookmark */ = E299F6521153920600F8B9C3 /* PBXTextBookmark */;
-			E299F661115480E700F8B9C3 /* PBXTextBookmark */ = E299F661115480E700F8B9C3 /* PBXTextBookmark */;
-			E299F662115480EB00F8B9C3 /* PBXTextBookmark */ = E299F662115480EB00F8B9C3 /* PBXTextBookmark */;
-			E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */ = E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */;
-			E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */ = E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */;
-			E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */ = E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */;
-			E2F41E551152279200571B32 = E2F41E551152279200571B32 /* PBXTextBookmark */;
-			E2F41E561152279200571B32 = E2F41E561152279200571B32 /* PBXTextBookmark */;
-			E2F41E5D11522A9D00571B32 = E2F41E5D11522A9D00571B32 /* PBXTextBookmark */;
+			E286BAE5116081CC00FA6341 = E286BAE5116081CC00FA6341 /* PBXTextBookmark */;
+			E286BAE6116081CC00FA6341 = E286BAE6116081CC00FA6341 /* PBXTextBookmark */;
+			E286BAE7116081CC00FA6341 = E286BAE7116081CC00FA6341 /* PBXTextBookmark */;
+			E286BB0011608ADD00FA6341 = E286BB0011608ADD00FA6341 /* PBXBookmark */;
+			E286BB1811608E0C00FA6341 = E286BB1811608E0C00FA6341 /* PBXTextBookmark */;
+			E286BB1911608E0C00FA6341 = E286BB1911608E0C00FA6341 /* PBXTextBookmark */;
+			E286BB1A11608E0C00FA6341 = E286BB1A11608E0C00FA6341 /* PlistBookmark */;
+			E286BB2C1160915900FA6341 = E286BB2C1160915900FA6341 /* PBXTextBookmark */;
+			E286BB4E1160ADDB00FA6341 = E286BB4E1160ADDB00FA6341 /* PBXTextBookmark */;
+			E286BB4F1160ADDB00FA6341 = E286BB4F1160ADDB00FA6341 /* PBXTextBookmark */;
+			E286BB501160ADDB00FA6341 = E286BB501160ADDB00FA6341 /* PlistBookmark */;
 		};
 		sourceControlManager = E2BF14B81150B44B00E35F42 /* Source Control */;
 		userBuildSettings = {
@@ -202,832 +192,638 @@
 			sepNavWindowFrame = "{{507, 193}, {750, 558}}";
 		};
 	};
-	E25677F711535486009FDC0C /* PBXTextBookmark */ = {
+	E240A9DE1161D40400CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1421;
-		vrLoc = 674;
+		vrLen = 1754;
+		vrLoc = 1225;
 	};
-	E25677FF1153552C009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 20";
+	E240A9E11161D40400CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
 		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 448;
-		vrLoc = 0;
+		rLoc = 9223372036854775807;
 	};
-	E25678001153552C009FDC0C /* PBXTextBookmark */ = {
+	E240A9F91161D44F00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1384;
-		vrLoc = 674;
+		vrLen = 1754;
+		vrLoc = 1225;
 	};
-	E25678011153552C009FDC0C /* PBXTextBookmark */ = {
+	E240A9FA1161D44F00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 90";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 3673;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1119;
-		vrLoc = 1170;
+		vrLen = 1753;
+		vrLoc = 1225;
 	};
-	E256780411535545009FDC0C /* PBXTextBookmark */ = {
+	E240A9FB1161D44F00CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E240AA021161D4DA00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1462;
-		vrLoc = 701;
+		vrLen = 1753;
+		vrLoc = 1225;
 	};
-	E256780F115355A3009FDC0C /* PBXTextBookmark */ = {
+	E240AA031161D4DA00CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E240AA051161D57B00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 68";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1441;
-		vrLoc = 586;
+		vrLen = 1365;
+		vrLoc = 1225;
 	};
-	E2567810115355A3009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 20";
+	E240AA061161D57B00CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
 		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 448;
-		vrLoc = 0;
+		rLoc = 9223372036854775807;
 	};
-	E2567811115355A3009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 25";
-		rLen = 0;
-		rLoc = 1264;
-		rType = 0;
-		vrLen = 466;
-		vrLoc = 0;
-	};
-	E2567818115355F6009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 25";
-		rLen = 0;
-		rLoc = 1264;
-		rType = 0;
-		vrLen = 466;
-		vrLoc = 0;
-	};
-	E2567819115355F6009FDC0C /* PBXTextBookmark */ = {
+	E240AA071161D58D00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 68";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1074;
-		vrLoc = 1215;
+		vrLen = 1365;
+		vrLoc = 1225;
 	};
-	E256781A115355F6009FDC0C /* PBXTextBookmark */ = {
+	E240AA081161D58D00CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E240AA091161D5A700CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 68";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1076;
-		vrLoc = 1213;
+		vrLen = 1365;
+		vrLoc = 1225;
 	};
-	E256781B11535691009FDC0C /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-	};
-	E256781E115356AB009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Implicit declaration of function 'doStuff'";
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		rLen = 1;
-		rLoc = 79;
-		rType = 1;
-	};
-	E256781F115356AB009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 68";
+	E240AA0A1161D5A700CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
 		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 492;
-		vrLoc = 1537;
+		rLoc = 9223372036854775807;
 	};
-	E2567822115356B5009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 29";
-		rLen = 0;
-		rLoc = 1272;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E2567823115356B5009FDC0C /* PBXTextBookmark */ = {
+	E240AA0F1161D5F900CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 68";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1358;
-		vrLoc = 79;
-	};
-	E2567824115356B5009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1342;
-		vrLoc = 586;
-	};
-	E2567827115356B5009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 25";
-		rLen = 0;
-		rLoc = 1264;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E256782A115356EF009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1191;
-		vrLoc = 28;
-	};
-	E256782B115356EF009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 29";
-		rLen = 0;
-		rLoc = 1272;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E256782C115356EF009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 20";
-		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 466;
-		vrLoc = 0;
-	};
-	E256782F115357F4009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 22";
-		rLen = 0;
-		rLoc = 1006;
-		rType = 0;
-		vrLen = 561;
-		vrLoc = 0;
-	};
-	E2567830115357F4009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1352;
-		vrLoc = 40;
-	};
-	E2567831115357F4009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 46";
-		rLen = 0;
-		rLoc = 1380;
+		rLoc = 1462;
 		rType = 0;
 		vrLen = 1201;
-		vrLoc = 142;
+		vrLoc = 1225;
 	};
-	E25678341153580B009FDC0C /* PBXTextBookmark */ = {
+	E240AA101161D5F900CF98E3 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E240AA1F1161E0B600CF98E3 /* AdMobView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdMobView.h;
+		path = /Volumes/Home/ruiwen/Projects/iPhone/admob_iphone_sdk/AdMob/AdMobView.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 585}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1257}";
+		};
+	};
+	E240AA221161E0C400CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 71";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1340;
-		vrLoc = 861;
+		vrLen = 1201;
+		vrLoc = 1225;
 	};
-	E25678371153584B009FDC0C /* PBXTextBookmark */ = {
+	E240AA231161E0C400CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 44";
+		fRef = E299F6831154AE4A00F8B9C3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
 		rLen = 0;
-		rLoc = 1380;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1358;
-		vrLoc = 720;
-	};
-	E256783A11535998009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 44";
-		rLen = 0;
-		rLoc = 1380;
-		rType = 0;
-		vrLen = 1404;
-		vrLoc = 256;
-	};
-	E256783B11535998009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 22";
-		rLen = 0;
-		rLoc = 1006;
-		rType = 0;
-		vrLen = 561;
+		vrLen = 1257;
 		vrLoc = 0;
 	};
-	E256783C11535998009FDC0C /* PBXTextBookmark */ = {
+	E240AA241161E0C400CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 15";
+		fRef = E240AA1F1161E0B600CF98E3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
 		rLen = 0;
-		rLoc = 427;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 589;
+		vrLen = 1257;
 		vrLoc = 0;
 	};
-	E256783F11535AB9009FDC0C /* PBXTextBookmark */ = {
+	E240AA251161E0C400CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 21";
-		rLen = 42;
-		rLoc = 827;
+		fRef = E240AA1F1161E0B600CF98E3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 589;
+		vrLen = 1257;
 		vrLoc = 0;
 	};
-	E256784011535AB9009FDC0C /* PBXTextBookmark */ = {
+	E240AA461161F1FE00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 44";
+		name = "KopiViewController.m: 100";
 		rLen = 0;
-		rLoc = 1380;
+		rLoc = 4187;
 		rType = 0;
-		vrLen = 1348;
-		vrLoc = 714;
+		vrLen = 1081;
+		vrLoc = 1962;
 	};
-	E256784111535AB9009FDC0C /* PBXTextBookmark */ = {
+	E240AA471161F1FE00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 72";
+		fRef = E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */;
+		name = "AdMobDelegateProtocol.h: 1";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1389;
-		vrLoc = 720;
+		vrLen = 2618;
+		vrLoc = 755;
 	};
-	E256784411535FEB009FDC0C /* PBXTextBookmark */ = {
+	E240AA481161F1FE00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 43";
+		fRef = E299F6831154AE4A00F8B9C3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
 		rLen = 0;
-		rLoc = 1380;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1328;
-		vrLoc = 720;
-	};
-	E256784511535FEB009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 21";
-		rLen = 42;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 589;
+		vrLen = 1401;
 		vrLoc = 0;
 	};
-	E256784611535FEB009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 15";
-		rLen = 0;
-		rLoc = 427;
-		rType = 0;
-		vrLen = 473;
-		vrLoc = 0;
+	E240AA491161F1FE00CF98E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E240AA3D1161F1C000CF98E3 /* KopiIcon.png */;
 	};
-	E256784B1153601B009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 15";
-		rLen = 0;
-		rLoc = 427;
-		rType = 0;
-		vrLen = 473;
-		vrLoc = 0;
+	E240AA4A1161F1FE00CF98E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E240AA3D1161F1C000CF98E3 /* KopiIcon.png */;
 	};
-	E256784C1153601B009FDC0C /* PBXTextBookmark */ = {
+	E240AA501161F28C00CF98E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E240AA3D1161F1C000CF98E3 /* KopiIcon.png */;
+	};
+	E240AA8D1161F81200CF98E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E240AA3D1161F1C000CF98E3 /* KopiIcon.png */;
+	};
+	E240AA8E1161F81200CF98E3 /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
-		comments = "No declaration of property 'idrinks' found in the interface";
+		comments = "Comparison of distinct Objective-C types 'struct NSString *' and 'struct UILabel *' lacks a cast";
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 15;
+		rLoc = 105;
 		rType = 1;
 	};
-	E256784D1153601B009FDC0C /* PBXTextBookmark */ = {
+	E240AA8F1161F81200CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 42";
+		name = "KopiViewController.m: 96";
 		rLen = 0;
-		rLoc = 1380;
+		rLoc = 3659;
 		rType = 0;
-		vrLen = 1163;
-		vrLoc = 0;
+		vrLen = 1535;
+		vrLoc = 2280;
 	};
-	E256785011536050009FDC0C /* PBXTextBookmark */ = {
+	E240AA941161F82900CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 41";
+		name = "KopiViewController.m: 96";
 		rLen = 0;
-		rLoc = 1344;
+		rLoc = 3659;
 		rType = 0;
-		vrLen = 1280;
-		vrLoc = 138;
+		vrLen = 1532;
+		vrLoc = 2280;
 	};
-	E2567851115360C0009FDC0C /* PBXTextBookmark */ = {
+	E240AA971161F84200CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		comments = "No declaration of property 'idrinks' found in the interface";
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 96";
+		rLen = 0;
+		rLoc = 3659;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 2280;
+	};
+	E240AA9A1161F85700CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 95";
+		rLen = 0;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1488;
+		vrLoc = 2280;
+	};
+	E240AA9D1161F87400CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 95";
+		rLen = 0;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1501;
+		vrLoc = 2280;
+	};
+	E240AAA01161F89300CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 95";
+		rLen = 0;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 2280;
+	};
+	E240AAA31161F8B400CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 95";
+		rLen = 0;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 2132;
+	};
+	E240AAA61161F8E400CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 96";
+		rLen = 0;
+		rLoc = 3659;
+		rType = 0;
+		vrLen = 1638;
+		vrLoc = 2132;
+	};
+	E240AAA91161F8FD00CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 95";
+		rLen = 0;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1664;
+		vrLoc = 2132;
+	};
+	E240AAAA1161F91200CF98E3 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Comparison of distinct Objective-C types 'struct NSString *' and 'struct UILabel *' lacks a cast";
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 15;
+		rLoc = 105;
 		rType = 1;
 	};
-	E2567852115360C0009FDC0C /* PBXTextBookmark */ = {
+	E240AAAB1161F91200CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 15";
+		name = "KopiViewController.m: 96";
 		rLen = 0;
-		rLoc = 348;
+		rLoc = 3526;
 		rType = 0;
-		vrLen = 520;
-		vrLoc = 40;
+		vrLen = 671;
+		vrLoc = 2841;
 	};
-	E2567853115360C5009FDC0C /* PBXTextBookmark */ = {
+	E240AAAE1161F99800CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 41";
+		name = "KopiViewController.m: 96";
 		rLen = 0;
-		rLoc = 1344;
+		rLoc = 3659;
 		rType = 0;
-		vrLen = 1349;
-		vrLoc = 138;
+		vrLen = 1694;
+		vrLoc = 2132;
 	};
-	E2567854115361E4009FDC0C /* PBXTextBookmark */ = {
+	E240AAB11161F9BA00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
+		name = "KopiViewController.m: 98";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 3805;
 		rType = 0;
-		vrLen = 1209;
-		vrLoc = 693;
+		vrLen = 1716;
+		vrLoc = 2132;
 	};
-	E256785911536375009FDC0C /* PBXTextBookmark */ = {
+	E240AAB41161FACE00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
+		name = "KopiViewController.m: 99";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 3886;
 		rType = 0;
-		vrLen = 1200;
-		vrLoc = 693;
+		vrLen = 1722;
+		vrLoc = 2132;
 	};
-	E256785C115363A5009FDC0C /* PBXTextBookmark */ = {
+	E240AAB51161FAEC00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 63";
+		name = "KopiViewController.m: 94";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 3525;
 		rType = 0;
-		vrLen = 1175;
-		vrLoc = 921;
+		vrLen = 1652;
+		vrLoc = 2132;
 	};
-	E256785F1153641D009FDC0C /* PBXTextBookmark */ = {
+	E240AAB81161FB2900CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 63";
+		name = "KopiViewController.m: 105";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 4091;
 		rType = 0;
-		vrLen = 1175;
-		vrLoc = 921;
+		vrLen = 1809;
+		vrLoc = 1769;
 	};
-	E256786211536431009FDC0C /* PBXTextBookmark */ = {
+	E240AABB1161FB9700CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
+		name = "KopiViewController.m: 97";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 3385;
 		rType = 0;
-		vrLen = 1160;
-		vrLoc = 921;
+		vrLen = 1920;
+		vrLoc = 2182;
 	};
-	E256786711536463009FDC0C /* PBXTextBookmark */ = {
+	E240AAC01161FCCD00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
+		name = "KopiViewController.m: 108";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 3879;
 		rType = 0;
-		vrLen = 1292;
-		vrLoc = 700;
+		vrLen = 1913;
+		vrLoc = 2183;
 	};
-	E256786811536463009FDC0C /* PBXTextBookmark */ = {
+	E240AAC11161FEE500CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		comments = "Expected identifier before ';' token";
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 76";
+		rLen = 0;
+		rLoc = 2425;
+		rType = 0;
+		vrLen = 2026;
+		vrLoc = 1357;
+	};
+	E240AACB1161FF4900CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 76";
+		rLen = 0;
+		rLoc = 2425;
+		rType = 0;
+		vrLen = 1973;
+		vrLoc = 1357;
+	};
+	E240AAD21161FFF500CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 76";
+		rLen = 0;
+		rLoc = 2425;
+		rType = 0;
+		vrLen = 1973;
+		vrLoc = 1357;
+	};
+	E240AAD61162002300CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 76";
+		rLen = 0;
+		rLoc = 2425;
+		rType = 0;
+		vrLen = 1973;
+		vrLoc = 1357;
+	};
+	E240AADC116200D800CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 76";
+		rLen = 0;
+		rLoc = 2425;
+		rType = 0;
+		vrLen = 2026;
+		vrLoc = 1357;
+	};
+	E240AAE01162012100CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
+		name = "KopiViewController.m: 149";
+		rLen = 0;
+		rLoc = 4724;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 28;
+	};
+	E240AAE11162012100CF98E3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		rLen = 1;
-		rLoc = 42;
-		rType = 1;
-	};
-	E256786911536463009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
+		name = "KopiViewController.h: 10";
 		rLen = 0;
-		rLoc = 1027;
+		rLoc = 199;
 		rType = 0;
-		vrLen = 478;
+		vrLen = 1305;
 		vrLoc = 0;
 	};
-	E256786A115364FE009FDC0C /* PBXTextBookmark */ = {
+	E240AAE21162012100CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
+		name = "KopiViewController.h: 34";
 		rLen = 0;
-		rLoc = 1027;
+		rLoc = 941;
 		rType = 0;
-		vrLen = 484;
+		vrLen = 1186;
 		vrLoc = 0;
 	};
-	E256786B115364FE009FDC0C /* PBXTextBookmark */ = {
+	E240AAEC116201BB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
+		name = "KopiViewController.m: 149";
 		rLen = 0;
-		rLoc = 2232;
+		rLoc = 4724;
 		rType = 0;
-		vrLen = 1292;
-		vrLoc = 700;
+		vrLen = 2024;
+		vrLoc = 1279;
 	};
-	E256786C115364FE009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1085;
-		vrLoc = 999;
-	};
-	E25678701153653C009FDC0C /* PBXTextBookmark */ = {
+	E240AAED116201BB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
+		name = "KopiViewController.h: 41";
 		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 485;
-		vrLoc = 0;
-	};
-	E25678711153653C009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 51";
-		rLen = 0;
-		rLoc = 1572;
-		rType = 0;
-		vrLen = 1163;
-		vrLoc = 921;
-	};
-	E25678721153653C009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 51";
-		rLen = 0;
-		rLoc = 1572;
-		rType = 0;
-		vrLen = 1293;
-		vrLoc = 701;
-	};
-	E256787311536546009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 51";
-		rLen = 0;
-		rLoc = 1572;
-		rType = 0;
-		vrLen = 1293;
-		vrLoc = 701;
-	};
-	E256787411536546009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
-		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E256787511536553009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
-		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 450;
-		vrLoc = 0;
-	};
-	E25678761153655F009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 22";
-		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E256787B11536596009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 22";
-		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 484;
-		vrLoc = 0;
-	};
-	E256787C11536596009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1031;
-		vrLoc = 1068;
-	};
-	E256787D11536AAD009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 15";
-		rLen = 0;
-		rLoc = 348;
-		rType = 0;
-		vrLen = 498;
-		vrLoc = 79;
-	};
-	E256787E11536AAD009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Expected identifier before ';' token";
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		rLen = 1;
-		rLoc = 42;
-		rType = 1;
-	};
-	E256787F11536AAD009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 23";
-		rLen = 0;
-		rLoc = 1027;
-		rType = 0;
-		vrLen = 265;
-		vrLoc = 219;
-	};
-	E256788011536AAF009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1054;
-		vrLoc = 1068;
-	};
-	E256788111536BA3009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 29";
-		rLen = 0;
-		rLoc = 1184;
-		rType = 0;
-		vrLen = 679;
-		vrLoc = 0;
-	};
-	E256788211536BA3009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 57";
-		rLen = 0;
-		rLoc = 1689;
-		rType = 0;
-		vrLen = 1135;
-		vrLoc = 888;
-	};
-	E256788311536BA3009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 59";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1114;
-		vrLoc = 888;
-	};
-	E256788411536DAF009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 60";
-		rLen = 0;
-		rLoc = 2232;
+		rLoc = 1121;
 		rType = 0;
 		vrLen = 1169;
 		vrLoc = 0;
 	};
-	E256788511536E37009FDC0C /* PBXTextBookmark */ = {
+	E240AAEE116201BB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 21";
+		name = "KopiViewController.h: 41";
 		rLen = 0;
-		rLoc = 941;
+		rLoc = 1121;
 		rType = 0;
-		vrLen = 697;
+		vrLen = 1164;
 		vrLoc = 0;
 	};
-	E256788611536E37009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 71";
-		rLen = 0;
-		rLoc = 2842;
-		rType = 0;
-		vrLen = 1321;
-		vrLoc = 141;
+	E240AB051162023A00CF98E3 /* AdMobDelegateProtocol.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1935}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1795}";
+		};
 	};
-	E256788711536E37009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 72";
-		rLen = 0;
-		rLoc = 2842;
-		rType = 0;
-		vrLen = 813;
-		vrLoc = 1475;
+	E240AB061162025400CF98E3 /* AdMobView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 693}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1401}";
+		};
 	};
-	E256788A11536F29009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 41;
-		rLoc = 2235;
-		rType = 0;
-		vrLen = 1094;
-		vrLoc = 1175;
+	E240AB081162026B00CF98E3 /* AdViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1335}}";
+			sepNavSelRange = "{2073, 0}";
+			sepNavVisRange = "{1317, 1822}";
+		};
 	};
-	E256788B11536F29009FDC0C /* PBXTextBookmark */ = {
+	E240AB0E116202CB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 21";
+		name = "KopiViewController.h: 41";
 		rLen = 0;
-		rLoc = 941;
+		rLoc = 1121;
 		rType = 0;
-		vrLen = 697;
+		vrLen = 1164;
 		vrLoc = 0;
 	};
-	E256788C11536F29009FDC0C /* PBXTextBookmark */ = {
+	E240AB0F116202CB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 30";
+		fRef = E240AB061162025400CF98E3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
 		rLen = 0;
-		rLoc = 1245;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 732;
+		vrLen = 1401;
 		vrLoc = 0;
 	};
-	E256789511536FA0009FDC0C /* PBXTextBookmark */ = {
+	E240AB10116202CB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 30";
+		fRef = E240AB051162023A00CF98E3 /* AdMobDelegateProtocol.h */;
+		name = "AdMobDelegateProtocol.h: 1";
 		rLen = 0;
-		rLoc = 1245;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 747;
+		vrLen = 1795;
 		vrLoc = 0;
 	};
-	E256789611536FA0009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 2692;
-		rType = 0;
-		vrLen = 1107;
-		vrLoc = 1175;
+	E240AB11116202CB00CF98E3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E240AB081162026B00CF98E3 /* AdViewController.m */;
 	};
-	E256789711536FA0009FDC0C /* PBXTextBookmark */ = {
+	E240AB12116202CB00CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		fRef = E240AB081162026B00CF98E3 /* AdViewController.m */;
+		name = "AdViewController.m: 59";
 		rLen = 0;
-		rLoc = 2692;
+		rLoc = 2073;
 		rType = 0;
-		vrLen = 1107;
-		vrLoc = 1175;
+		vrLen = 1759;
+		vrLoc = 1317;
 	};
-	E256789A11536FDC009FDC0C /* PBXTextBookmark */ = {
+	E240AB19116203D200CF98E3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		fRef = E240AB081162026B00CF98E3 /* AdViewController.m */;
+		name = "AdViewController.m: 59";
 		rLen = 0;
-		rLoc = 2276;
+		rLoc = 2073;
 		rType = 0;
-		vrLen = 1106;
-		vrLoc = 1175;
-	};
-	E256789B11536FDC009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 30";
-		rLen = 0;
-		rLoc = 1245;
-		rType = 0;
-		vrLen = 747;
-		vrLoc = 0;
-	};
-	E256789C11536FDC009FDC0C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 30";
-		rLen = 0;
-		rLoc = 1227;
-		rType = 0;
-		vrLen = 746;
-		vrLoc = 0;
-	};
-	E257E0C3115202E90009F96A /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = E2BF14D31151D5C600E35F42 /* Drinks.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			milk,
-			evaporated,
-		);
-		name = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Drinks.plist;
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	E257E110115222120009F96A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* KopiAppDelegate.m */;
-		name = "KopiAppDelegate.m: 15";
-		rLen = 0;
-		rLoc = 279;
-		rType = 0;
-		vrLen = 603;
-		vrLoc = 0;
+		vrLen = 1822;
+		vrLoc = 1317;
 	};
 	E257E111115222120009F96A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1039,184 +835,166 @@
 		vrLen = 460;
 		vrLoc = 0;
 	};
-	E299F61911538FB500F8B9C3 /* PBXTextBookmark */ = {
+	E286BAE5116081CC00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 34";
+		fRef = E299F6831154AE4A00F8B9C3 /* AdMobView.h */;
+		name = "AdMobView.h: 1";
 		rLen = 0;
-		rLoc = 992;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1271;
+		vrLen = 1401;
 		vrLoc = 0;
 	};
-	E299F61A11538FB500F8B9C3 /* PBXTextBookmark */ = {
+	E286BAE6116081CC00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 118";
+		fRef = E299F68E1154B03000F8B9C3 /* AdViewController.h */;
+		name = "AdViewController.h: 1";
 		rLen = 0;
-		rLoc = 3486;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1338;
-		vrLoc = 40;
+		vrLen = 1335;
+		vrLoc = 0;
 	};
-	E299F61B11538FB500F8B9C3 /* PBXTextBookmark */ = {
+	E286BAE7116081CC00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
+		fRef = E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */;
+		name = "AdMobDelegateProtocol.h: 1";
 		rLen = 0;
-		rLoc = 2211;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 1480;
-		vrLoc = 1678;
+		vrLen = 2666;
+		vrLoc = 1282;
 	};
-	E299F62711538FE400F8B9C3 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'selection' undeclared (first use in this function)";
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 61;
-		rType = 1;
+	E286BB0011608ADD00FA6341 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
 	};
-	E299F62811538FE400F8B9C3 /* PBXTextBookmark */ = {
+	E286BB1811608E0C00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		fRef = E299F68F1154B03000F8B9C3 /* AdViewController.m */;
+		name = "AdViewController.m: 61";
 		rLen = 0;
-		rLoc = 1907;
+		rLoc = 2103;
 		rType = 0;
-		vrLen = 779;
-		vrLoc = 1682;
+		vrLen = 1820;
+		vrLoc = 1316;
 	};
-	E299F62911538FEF00F8B9C3 /* PBXTextBookmark */ = {
+	E286BB1911608E0C00FA6341 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* KopiAppDelegate.m */;
+		name = "KopiAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 0;
+	};
+	E286BB1A11608E0C00FA6341 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = E2BF14D31151D5C600E35F42 /* Drinks.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			strength,
+		);
+		name = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Drinks.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	E286BB2C1160915900FA6341 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
+		name = "KopiViewController.h: 10";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 1306;
+		vrLoc = 0;
+	};
+	E286BB4E1160ADDB00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 2211;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 1480;
-		vrLoc = 1678;
+		vrLen = 1445;
+		vrLoc = 28;
 	};
-	E299F62E1153904700F8B9C3 /* PBXTextBookmark */ = {
+	E286BB4F1160ADDB00FA6341 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
+		name = "KopiViewController.m: 48";
 		rLen = 0;
-		rLoc = 1907;
+		rLoc = 1462;
 		rType = 0;
-		vrLen = 779;
-		vrLoc = 1682;
+		vrLen = 1700;
+		vrLoc = 1279;
 	};
-	E299F6311153904A00F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
+	E286BB501160ADDB00FA6341 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Kopi-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Kopi-Info.plist";
 		rLen = 0;
-		rLoc = 2211;
-		rType = 0;
-		vrLen = 1477;
-		vrLoc = 1681;
+		rLoc = 9223372036854775808;
 	};
-	E299F6361153906500F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 1907;
-		rType = 0;
-		vrLen = 571;
-		vrLoc = 1682;
+	E299F6821154AE4A00F8B9C3 /* AdMobDelegateProtocol.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdMobDelegateProtocol.h;
+		path = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Classes/AdMobDelegateProtocol.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1875}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{755, 2598}";
+		};
 	};
-	E299F6371153906600F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 1907;
-		rType = 0;
-		vrLen = 571;
-		vrLoc = 1682;
+	E299F6831154AE4A00F8B9C3 /* AdMobView.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdMobView.h;
+		path = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Classes/AdMobView.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 741}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1401}";
+		};
 	};
-	E299F63A1153906700F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 67";
-		rLen = 0;
-		rLoc = 2211;
-		rType = 0;
-		vrLen = 1477;
-		vrLoc = 1681;
+	E299F68E1154B03000F8B9C3 /* AdViewController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = AdViewController.h;
+		path = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Classes/AdViewController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 693}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1335}";
+		};
 	};
-	E299F6471153911100F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 66";
-		rLen = 0;
-		rLoc = 2136;
-		rType = 0;
-		vrLen = 1448;
-		vrLoc = 1907;
-	};
-	E299F6521153920600F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 66";
-		rLen = 0;
-		rLoc = 2136;
-		rType = 0;
-		vrLen = 1234;
-		vrLoc = 2232;
-	};
-	E299F661115480E700F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 1907;
-		rType = 0;
-		vrLen = 763;
-		vrLoc = 1781;
-	};
-	E299F662115480EB00F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 66";
-		rLen = 0;
-		rLoc = 2136;
-		rType = 0;
-		vrLen = 1657;
-		vrLoc = 1385;
-	};
-	E299F68B1154AEF200F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 66";
-		rLen = 0;
-		rLoc = 2136;
-		rType = 0;
-		vrLen = 1658;
-		vrLoc = 1386;
-	};
-	E299F68C1154AEF200F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 69";
-		rLen = 0;
-		rLoc = 2233;
-		rType = 0;
-		vrLen = 1668;
-		vrLoc = 1389;
-	};
-	E299F68D1154AF2500F8B9C3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 1907;
-		rType = 0;
-		vrLen = 763;
-		vrLoc = 1781;
+	E299F68F1154B03000F8B9C3 /* AdViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = AdViewController.m;
+		path = /Volumes/Home/ruiwen/Projects/Kopi/iPhone/Kopi/Classes/AdViewController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1335}}";
+			sepNavSelRange = "{2103, 0}";
+			sepNavVisRange = "{1316, 1820}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
 	};
 	E2BF149B1150B43500E35F42 /* Kopi */ = {
 		isa = PBXExecutable;
@@ -1293,35 +1071,5 @@
 		uiCtxt = {
 			sepNavWindowFrame = "{{313, 106}, {750, 558}}";
 		};
-	};
-	E2F41E551152279200571B32 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* KopiViewController.h */;
-		name = "KopiViewController.h: 20";
-		rLen = 0;
-		rLoc = 827;
-		rType = 0;
-		vrLen = 448;
-		vrLoc = 0;
-	};
-	E2F41E561152279200571B32 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 61";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1412;
-		vrLoc = 795;
-	};
-	E2F41E5D11522A9D00571B32 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* KopiViewController.m */;
-		name = "KopiViewController.m: 62";
-		rLen = 0;
-		rLoc = 2232;
-		rType = 0;
-		vrLen = 1509;
-		vrLoc = 586;
 	};
 }

@@ -58,7 +58,7 @@
 
 // To receive test ads rather than real ads...
 - (BOOL)useTestAd {
-  return YES;
+  return NO;
 }
 
 - (NSString *)testAdAction {

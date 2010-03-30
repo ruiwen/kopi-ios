@@ -19,6 +19,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         // Custom initialization
+		//drinkCaption.layer.cornerRadius = 50.0;
     }
     return self;
 }
@@ -44,6 +45,8 @@
 	NSString *finalpath = [path stringByAppendingPathComponent:@"Drinks.plist"];
 	drinks = [[NSDictionary alloc] initWithContentsOfFile:finalpath];
 	
+	drinkCaption.layer.cornerRadius = 10.0;
+	
 }
 
 
@@ -63,7 +66,7 @@
 	}
 	
 	drinkCaption.text = [caption uppercaseString];
-	NSLog(@"%@", [caption uppercaseString]);
+
 	// order not release'd as it's been initialised as an auto-release object
 	[caption release];
 }
@@ -80,23 +83,41 @@
 }
 
 - (IBAction)setMilk:(id)sender{
-	NSLog(@"Milk");
-	[self addToCaption:@"milk" sender:sender];
+	if([[sender currentTitle] isEqualToString:@"Condensed"] && [[[selections valueForKey:@"sweetness"] currentTitle] isEqualToString:@"None"]) {
+		UIAlertView *kosongalert = [[UIAlertView alloc] initWithTitle:@"Whoops!" 
+															  message:@"You've already chosen a coffee with no sweetness. Choosing Condensed milk will make it sweet. May we recommend Evaporated milk instead?" 
+															 delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		[kosongalert show];
+		[kosongalert release];
+		
+		return;								   
+	}
+	else {
+		[self addToCaption:@"milk" sender:sender];
+	}
 }
 									   
 - (IBAction)setStrength:(id)sender{
-	NSLog(@"Strength");
 	[self addToCaption:@"strength" sender:sender];
 }
 
 
 - (IBAction)setSweetness:(id)sender{
-	NSLog(@"Sweetness");
-	[self addToCaption:@"sweetness" sender:sender];
+	if([[sender currentTitle] isEqualToString:@"None"] && [[[selections valueForKey:@"milk"] currentTitle] isEqualToString:@"Condensed"]) {
+		UIAlertView *kosongalert = [[UIAlertView alloc] initWithTitle:@"Whoops!" 
+															  message:@"You have chosen Condensed milk and it's already sweet! You can opt for Less sweetness with Condensed milk though!" 
+															 delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+		[kosongalert show];
+		[kosongalert release];
+		
+		return;								   
+	}
+	else {
+		[self addToCaption:@"sweetness" sender:sender];	
+	}
 }
 									   
 - (IBAction)setIced:(id)sender{
-	NSLog(@"Iced");	
 	[self addToCaption:@"ice" sender:sender];
 }
 									   
