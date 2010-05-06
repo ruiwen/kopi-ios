@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">784</int>
-		<string key="IBDocument.SystemVersion">10C540</string>
+		<string key="IBDocument.SystemVersion">10D573</string>
 		<string key="IBDocument.InterfaceBuilderVersion">740</string>
-		<string key="IBDocument.AppKitVersion">1038.25</string>
-		<string key="IBDocument.HIToolboxVersion">458.00</string>
+		<string key="IBDocument.AppKitVersion">1038.29</string>
+		<string key="IBDocument.HIToolboxVersion">460.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">62</string>
@@ -38,9 +38,7 @@
 			<object class="IBUICustomObject" id="664661524"/>
 			<object class="IBUIViewController" id="943309135">
 				<string key="IBUINibName">KopiViewController</string>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
+				<bool key="IBUIWantsFullScreenLayout">YES</bool>
 			</object>
 			<object class="IBUIWindow" id="117978783">
 				<nil key="NSNextResponder"/>
@@ -140,7 +138,7 @@
 					<string>UIApplication</string>
 					<string>UIResponder</string>
 					<string>KopiViewController</string>
-					<string>{{512, 351}, {320, 480}}</string>
+					<string>{{512, 348}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{525, 346}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -205,7 +203,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>makeRed</string>
+							<string>addCaption:</string>
 							<string>setIced:</string>
 							<string>setMilk:</string>
 							<string>setStrength:</string>
@@ -225,17 +223,25 @@
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>drinkCaption</string>
+							<string>iceRow</string>
 							<string>iceSelection</string>
+							<string>milkRow</string>
 							<string>milkSelection</string>
+							<string>strengthRow</string>
 							<string>strengthSelection</string>
+							<string>sweetnessRow</string>
 							<string>sweetnessSelection</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UILabel</string>
+							<string>UIView</string>
 							<string>UIButton</string>
+							<string>UIView</string>
 							<string>UIButton</string>
+							<string>UIView</string>
 							<string>UIButton</string>
+							<string>UIView</string>
 							<string>UIButton</string>
 						</object>
 					</object>

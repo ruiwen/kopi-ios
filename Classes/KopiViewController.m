@@ -11,7 +11,8 @@
 @implementation KopiViewController
 
 @synthesize drinkCaption;
-@synthesize drinks;
+@synthesize drinks, viewList;
+@synthesize milkRow, strengthRow, sweetnessRow, iceRow;
 @synthesize selections, milkSelection, strengthSelection, sweetnessSelection, iceSelection;
 
 /*
@@ -39,13 +40,25 @@
 	
 	// Initialise the selections array
 	selections = [[NSMutableDictionary alloc] initWithObjectsAndKeys:milkSelection, @"milk", strengthSelection, @"strength", sweetnessSelection, @"sweetness", iceSelection, @"ice", nil];
+
+	// Initialise the view list
+	viewList = [[NSArray alloc] initWithObjects:milkRow, strengthRow, sweetnessRow, iceRow, nil];
 	
 	// Load the plist file	
 	NSString *path = [[NSBundle mainBundle] bundlePath];
 	NSString *finalpath = [path stringByAppendingPathComponent:@"Drinks.plist"];
 	drinks = [[NSDictionary alloc] initWithContentsOfFile:finalpath];
 	
-	drinkCaption.layer.cornerRadius = 10.0;
+	// Make stuff round!
+	[self makeRound:drinkCaption roundness:10.0];
+
+	for (UIView *row in viewList) {
+		for(UIView *v in [row subviews]) {
+			if ([v isKindOfClass:[UIButton class]]) {
+				[self makeRound:v roundness:11.0];
+			}
+		}		
+	}
 	
 }
 
@@ -57,6 +70,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
+
+- (void)makeRound:(UIView *)v roundness:(CGFloat)roundness {
+	v.layer.cornerRadius = roundness;
+}
+
 
 - (void)setCaption {
 	NSMutableString *caption = [[NSMutableString alloc] initWithString:@"kopi"];
@@ -71,55 +89,60 @@
 	[caption release];
 }
 
-- (void)addToCaption:(NSString *)key sender:(id)sender {
-	
-	[[selections valueForKey:key] titleLabel].font = [UIFont boldSystemFontOfSize:15.0];
-	[sender titleLabel].font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:15.0]; // Normalise the current selection	
-	[selections setValue:sender forKey:key];
-	
-	[selections setValue:sender forKey:[[sender currentTitle] lowercaseString]]; // Add the passed in sender (UIButton) to the selections Dictionary
-	
-	[self setCaption];
-}
 
-- (IBAction)setMilk:(id)sender{
+- (IBAction)addCaption:(id)sendeo {
+	
+	UIButton *sender = (UIButton *)sendeo;
+	
+	// Condensed while Kosong
 	if([[sender currentTitle] isEqualToString:@"Condensed"] && [[[selections valueForKey:@"sweetness"] currentTitle] isEqualToString:@"None"]) {
 		UIAlertView *kosongalert = [[UIAlertView alloc] initWithTitle:@"Whoops!" 
-															  message:@"You've already chosen a coffee with no sweetness. Choosing Condensed milk will make it sweet. May we recommend Evaporated milk instead?" 
+															  message:@"You have indicated that you'd like your coffee unsweetened. Choosing Condensed milk now will make it sweet. Please make another type of milk for your coffee." 
 															 delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
 		[kosongalert show];
 		[kosongalert release];
 		
 		return;								   
 	}
-	else {
-		[self addToCaption:@"milk" sender:sender];
-	}
-}
-									   
-- (IBAction)setStrength:(id)sender{
-	[self addToCaption:@"strength" sender:sender];
-}
-
-
-- (IBAction)setSweetness:(id)sender{
-	if([[sender currentTitle] isEqualToString:@"None"] && [[[selections valueForKey:@"milk"] currentTitle] isEqualToString:@"Condensed"]) {
+	
+	// Kosong while Condensed
+	if([[sender currentTitle] isEqualToString:@"None"] && ([[sender superview] tag] == 3) && [[[selections valueForKey:@"milk"] currentTitle] isEqualToString:@"Condensed"]) {
 		UIAlertView *kosongalert = [[UIAlertView alloc] initWithTitle:@"Whoops!" 
-															  message:@"You have chosen Condensed milk and it's already sweet! You can opt for Less sweetness with Condensed milk though!" 
+															  message:@"You have indicated that you'd like Condensed milk in your coffee, which makes it sweet. Please choose another level of sweetness, like Less." 
 															 delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
 		[kosongalert show];
 		[kosongalert release];
 		
 		return;								   
 	}
-	else {
-		[self addToCaption:@"sweetness" sender:sender];	
-	}
+	
+	
+	// Retrieve the row we're at.
+	// Silly iPhone SDK uses int's for tags instead of strings =(
+	//
+	// From the innermost nested []'s
+	// Obtain the tag of the bounding UIView of the incoming UIButton ([[sender superview] tag]), eg. milkRow, which has a single digit tag, eg. 1
+	// Multiply the integer tag by 10, to give, say, 10, which is the integer tag of the label for that row
+	// Retrieve the UILabel with tag 10x of the parent UIView, eg. [[self.view viewWithTag:[[sender superview] tag] * 10 ]
+	// Get the text label of the UILabel and lowercase it. That's our key for the next section, eg. 'milk'
+	NSString *key = [[[self.view viewWithTag:[[sender superview] tag] *10 ] text] lowercaseString];
+	
+	// Change the highlighting for the selected (and recently unselected) UIButton using transparency and fonts
+	UIButton *prevSelection = [selections valueForKey:key];
+
+	[prevSelection titleLabel].font = [UIFont boldSystemFontOfSize:15.0];
+	prevSelection.backgroundColor = [prevSelection.backgroundColor colorWithAlphaComponent:0.60];
+	
+	[sender titleLabel].font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:15.0]; // Normalise the current selection	
+	sender.backgroundColor = [sender.backgroundColor colorWithAlphaComponent:1.0];
+	
+	[selections setValue:sender forKey:key];	
+	//[selections setValue:sender forKey:[[sender currentTitle] lowercaseString]]; // Add the passed in sender (UIButton) to the selections Dictionary
+	
+	[self setCaption];
+	
 }
-									   
-- (IBAction)setIced:(id)sender{
-	[self addToCaption:@"ice" sender:sender];
-}
+
 									   
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
