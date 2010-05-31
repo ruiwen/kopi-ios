@@ -179,7 +179,7 @@
 	NSLog(@"Playing!");
 	
 	// Flip the Play/Stop buttons' visibility
-	[self flipPlayStop:YES];
+	[self isPlaying:YES];
 	
 	NSMutableArray *sounds = [NSMutableArray arrayWithCapacity:5];
 	[sounds insertObject:@"kopi" atIndex:0];
@@ -229,7 +229,8 @@
 		shouldContinue = YES;
 		
 		// Flip the Stop/Play buttons back
-		[self flipPlayStop:NO];
+		[self isPlaying:NO];
+
 	}
 }
 
@@ -241,17 +242,21 @@
 }
 
 
-- (void)flipPlayStop:(BOOL)isPlaying {
+- (void)isPlaying:(BOOL)isPlaying {
 
 	if(isPlaying) {
 		// Flip the UI to show the Stop button instead
 		playButton.hidden = YES;
 		stopButton.hidden = NO;
+		resetButton.enabled = NO;
+		resetButton.alpha = 0.6;
 	}
 	else {
 		// Flip the UI to show the Stop button instead
 		playButton.hidden = NO;
 		stopButton.hidden = YES;
+		resetButton.enabled = YES;
+		resetButton.alpha = 1.0;
 	}
 }
 

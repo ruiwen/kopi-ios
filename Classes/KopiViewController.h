@@ -72,6 +72,7 @@
 - (void)makeRound:(UIView *)v roundness:(CGFloat)roundness;
 - (void)toggleButton:(UIButton *)v on:(BOOL)on;
 - (void)playCaptionSounds;
+- (void)isPlaying:(BOOL)isPlaying;
 
 /*
 static void testCallback(SystemSoundID, void* );
