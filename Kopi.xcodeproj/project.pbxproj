@@ -19,6 +19,16 @@
 		E240AAF11162021A00CF98E3 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E240AAEF1162021A00CF98E3 /* libAdMobDevice.a */; };
 		E240AAF21162021A00CF98E3 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E240AAF01162021A00CF98E3 /* libAdMobSimulator.a */; };
 		E240AB091162026B00CF98E3 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240AB081162026B00CF98E3 /* AdViewController.m */; };
+		E24508CE1194028A007D41BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24508CD1194028A007D41BD /* AVFoundation.framework */; };
+		E28D41B31192A2510094C255 /* gadai.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AA1192A2510094C255 /* gadai.wav */; };
+		E28D41B41192A2510094C255 /* gao.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AB1192A2510094C255 /* gao.wav */; };
+		E28D41B51192A2510094C255 /* kopi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AC1192A2510094C255 /* kopi.wav */; };
+		E28D41B61192A2510094C255 /* kosong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AD1192A2510094C255 /* kosong.wav */; };
+		E28D41B71192A2510094C255 /* o.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AE1192A2510094C255 /* o.wav */; };
+		E28D41B81192A2510094C255 /* peng.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AF1192A2510094C255 /* peng.wav */; };
+		E28D41B91192A2510094C255 /* p'oh.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41B01192A2510094C255 /* p'oh.wav */; };
+		E28D41BA1192A2510094C255 /* see.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41B11192A2510094C255 /* see.wav */; };
+		E28D41BB1192A2510094C255 /* siewdai.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41B21192A2510094C255 /* siewdai.wav */; };
 		E299F66B1154AD7800F8B9C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */; };
 		E299F66F1154AD8400F8B9C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */; };
 		E299F6731154AD9000F8B9C3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E299F6721154AD9000F8B9C3 /* AddressBook.framework */; };
@@ -49,6 +59,16 @@
 		E240AB061162025400CF98E3 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobView.h; path = ../../../iPhone/admob_iphone_sdk/AdMob/AdMobView.h; sourceTree = SOURCE_ROOT; };
 		E240AB071162026B00CF98E3 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdViewController.h; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.h; sourceTree = SOURCE_ROOT; };
 		E240AB081162026B00CF98E3 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdViewController.m; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.m; sourceTree = SOURCE_ROOT; };
+		E24508CD1194028A007D41BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E28D41AA1192A2510094C255 /* gadai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gadai.wav; path = ../../Soundclips/gadai.wav; sourceTree = SOURCE_ROOT; };
+		E28D41AB1192A2510094C255 /* gao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gao.wav; path = ../../Soundclips/gao.wav; sourceTree = SOURCE_ROOT; };
+		E28D41AC1192A2510094C255 /* kopi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kopi.wav; path = ../../Soundclips/kopi.wav; sourceTree = SOURCE_ROOT; };
+		E28D41AD1192A2510094C255 /* kosong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kosong.wav; path = ../../Soundclips/kosong.wav; sourceTree = SOURCE_ROOT; };
+		E28D41AE1192A2510094C255 /* o.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = o.wav; path = ../../Soundclips/o.wav; sourceTree = SOURCE_ROOT; };
+		E28D41AF1192A2510094C255 /* peng.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = peng.wav; path = ../../Soundclips/peng.wav; sourceTree = SOURCE_ROOT; };
+		E28D41B01192A2510094C255 /* p'oh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "p'oh.wav"; path = "../../Soundclips/p'oh.wav"; sourceTree = SOURCE_ROOT; };
+		E28D41B11192A2510094C255 /* see.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = see.wav; path = ../../Soundclips/see.wav; sourceTree = SOURCE_ROOT; };
+		E28D41B21192A2510094C255 /* siewdai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siewdai.wav; path = ../../Soundclips/siewdai.wav; sourceTree = SOURCE_ROOT; };
 		E299F66A1154AD7800F8B9C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E299F66E1154AD8400F8B9C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E299F6721154AD9000F8B9C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -74,6 +94,7 @@
 				E299F67F1154ADC500F8B9C3 /* MessageUI.framework in Frameworks */,
 				E240AAF11162021A00CF98E3 /* libAdMobDevice.a in Frameworks */,
 				E240AAF21162021A00CF98E3 /* libAdMobSimulator.a in Frameworks */,
+				E24508CE1194028A007D41BD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +148,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E28D41A21192A23B0094C255 /* soundclips */,
 				E240AA3D1161F1C000CF98E3 /* KopiIcon.png */,
 				2899E5210DE3E06400AC0155 /* KopiViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -150,8 +172,25 @@
 				E299F6761154ADAB00F8B9C3 /* AudioToolbox.framework */,
 				E299F67A1154ADB600F8B9C3 /* MediaPlayer.framework */,
 				E299F67E1154ADC500F8B9C3 /* MessageUI.framework */,
+				E24508CD1194028A007D41BD /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28D41A21192A23B0094C255 /* soundclips */ = {
+			isa = PBXGroup;
+			children = (
+				E28D41AA1192A2510094C255 /* gadai.wav */,
+				E28D41AB1192A2510094C255 /* gao.wav */,
+				E28D41AC1192A2510094C255 /* kopi.wav */,
+				E28D41AD1192A2510094C255 /* kosong.wav */,
+				E28D41AE1192A2510094C255 /* o.wav */,
+				E28D41AF1192A2510094C255 /* peng.wav */,
+				E28D41B01192A2510094C255 /* p'oh.wav */,
+				E28D41B11192A2510094C255 /* see.wav */,
+				E28D41B21192A2510094C255 /* siewdai.wav */,
+			);
+			name = soundclips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +239,15 @@
 				2899E5220DE3E06400AC0155 /* KopiViewController.xib in Resources */,
 				E2BF14D41151D5C600E35F42 /* Drinks.plist in Resources */,
 				E240AA3E1161F1C000CF98E3 /* KopiIcon.png in Resources */,
+				E28D41B31192A2510094C255 /* gadai.wav in Resources */,
+				E28D41B41192A2510094C255 /* gao.wav in Resources */,
+				E28D41B51192A2510094C255 /* kopi.wav in Resources */,
+				E28D41B61192A2510094C255 /* kosong.wav in Resources */,
+				E28D41B71192A2510094C255 /* o.wav in Resources */,
+				E28D41B81192A2510094C255 /* peng.wav in Resources */,
+				E28D41B91192A2510094C255 /* p'oh.wav in Resources */,
+				E28D41BA1192A2510094C255 /* see.wav in Resources */,
+				E28D41BB1192A2510094C255 /* siewdai.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

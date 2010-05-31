@@ -11,7 +11,7 @@
 @implementation KopiViewController
 
 @synthesize drinkCaption;
-@synthesize drinks, viewList;
+@synthesize e, drinks, viewList;
 @synthesize milkRow, strengthRow, sweetnessRow, iceRow;
 @synthesize selections, milkSelection, strengthSelection, sweetnessSelection, iceSelection;
 
@@ -43,6 +43,9 @@
 
 	// Initialise the view list
 	viewList = [[NSArray alloc] initWithObjects:milkRow, strengthRow, sweetnessRow, iceRow, nil];
+	
+	// Initialise the order array
+	order = [[NSArray alloc] initWithObjects:@"milk", @"strength", @"sweetness", @"ice", nil];
 	
 	// Load the plist file	
 	NSString *path = [[NSBundle mainBundle] bundlePath];
@@ -78,7 +81,7 @@
 
 - (void)setCaption {
 	NSMutableString *caption = [[NSMutableString alloc] initWithString:@"kopi"];
-	NSArray *order = [NSArray arrayWithObjects:@"milk", @"strength", @"sweetness", @"ice", nil];
+	
 	for (NSString *key in order) {
 		[caption appendFormat:@" %@", [[drinks valueForKey:key] valueForKey:[[[selections valueForKey:key] currentTitle] lowercaseString]]];
 	}
@@ -143,6 +146,97 @@
 	
 }
 
+
+- (IBAction)playCaption {
+	// Tutorial and code on: http://howtomakeiphoneapps.com/2009/08/how-to-play-a-short-sound-in-iphone-code/
+	NSLog(@"Playing!");
+	NSMutableArray *sounds = [NSMutableArray arrayWithCapacity:5];
+	[sounds insertObject:@"kopi" atIndex:0];
+	
+	// Get the list of files to play
+	for (NSString *key in order) {
+		NSString *say = [[drinks valueForKey:key] valueForKey:[[[selections valueForKey:key] currentTitle] lowercaseString]];
+		if(![say isEqual:@""]) {
+			say = [say stringByReplacingOccurrencesOfString:@" " withString:@""]; // Chop out the spaces in the string, eg. "siew dai" -> "siewdai"
+			[sounds addObject:say];
+		}
+	}
+	
+	NSLog(@"%@", sounds);
+	e = [sounds objectEnumerator];
+	[e retain];
+	//NSLog(@"%@", [e allObjects]); 	
+	
+	[self playCaptionSounds];
+	
+	
+	/*
+	//NSError *error = [[NSError alloc] init];
+	NSString *path = [[NSBundle mainBundle] pathForResource:[e nextObject] ofType:@"wav"];
+	NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO]; NSLog(@"%@", filePath);
+	AVAudioPlayer *avp = [[AVAudioPlayer alloc] initWithContentsOfURL:filePath error:NULL];
+	avp.delegate = self;
+	
+	[avp play];
+	*/
+
+}
+
+- (void)playCaptionSounds {
+	NSLog(@"playCaptionSounds");
+	NSString *next = [e nextObject];
+	NSLog(@"%@", next);
+	if(next != nil) {
+		NSString *path = [[NSBundle mainBundle] pathForResource:next ofType:@"wav"]; NSLog(@"%@", path); // Build the path string
+		NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO]; // Make it an actual file path in the system
+		AVAudioPlayer *avp = [[AVAudioPlayer alloc] initWithContentsOfURL:filePath error:NULL]; // Init the player with the file path
+		avp.delegate = self;
+		[avp play];
+	}
+	else {
+		NSLog(@"End of caption");
+	}
+}
+
+- (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
+	//NSError *error = [[NSError alloc] init];
+	NSLog(@"Done playing!");
+	NSLog(@"%@", self);
+	[self playCaptionSounds];
+}
+
+/*
+static void testCallback(SystemSoundID sID, void* e) {
+	NSLog(@"Test callback: %d, %@", sID, e);
+}
+
+static void playCaptionSound(SystemSoundID soundID, NSEnumerator *e) {
+	NSLog(@"In the callback!: %d, %@", soundID, e);
+
+	NSString *sound = [e nextObject]; // Get the leading soundclip name off e
+	NSLog(@"Sound: %@", sound);
+	//Get the filename of the sound file:
+	NSString *path = [[NSBundle mainBundle] pathForResource:sound ofType:@"wav"];
+
+	NSLog(@"%@", path);
+	
+	
+	//Get a URL for the sound file
+	NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO];
+		
+	//Use audio sevices to create the sound
+	AudioServicesCreateSystemSoundID((CFURLRef)filePath, &soundID);
+	
+	// Point the callback back here	
+	AudioServicesAddSystemSoundCompletion (soundID,NULL,NULL,
+										   testCallback,
+										   self);
+	
+	//Use audio services to play the sound
+	AudioServicesPlaySystemSound(soundID);
+	
+}
+*/
 									   
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -164,6 +258,7 @@
 	[sweetnessSelection release];
 	[iceSelection release];
 	[selections release];
+	[viewList release];
 	[drinks release];
 	[drinkCaption release];
     [super dealloc];
