@@ -27,11 +27,16 @@
 	IBOutlet UIButton *sweetnessSelection;
 	IBOutlet UIButton *iceSelection;
 	
+	IBOutlet UIButton *playButton;
+	IBOutlet UIButton *stopButton;
+	IBOutlet UIButton *resetButton;
+	
 	NSEnumerator *e;
 	NSArray *order;
 	NSArray *viewList;
 	NSDictionary *drinks;
 	NSMutableDictionary *selections;
+	bool *shouldContinue;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *drinkCaption;
@@ -46,17 +51,26 @@
 @property (nonatomic, retain) IBOutlet UIButton *sweetnessSelection;
 @property (nonatomic, retain) IBOutlet UIButton *iceSelection;
 
+@property (nonatomic, retain) IBOutlet UIButton *playButton;
+@property (nonatomic, retain) IBOutlet UIButton *stopButton;
+@property (nonatomic, retain) IBOutlet UIButton *resetButton;
+
 @property (nonatomic, retain) NSEnumerator *e;
 @property (nonatomic, retain) NSArray *order;
 @property (nonatomic, retain) NSArray *viewList;
 @property (nonatomic, retain) NSDictionary *drinks;
 @property (nonatomic, retain) NSMutableDictionary *selections;
 
+@property (nonatomic) bool *shouldContinue;
+
 - (IBAction)addCaption:(id)sender;
 - (IBAction)playCaption;
+- (IBAction)stopPlaying;
+- (IBAction)resetSelection;
 
 - (void)setCaption;
 - (void)makeRound:(UIView *)v roundness:(CGFloat)roundness;
+- (void)toggleButton:(UIButton *)v on:(BOOL)on;
 - (void)playCaptionSounds;
 
 /*

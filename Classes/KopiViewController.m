@@ -14,6 +14,7 @@
 @synthesize e, drinks, viewList;
 @synthesize milkRow, strengthRow, sweetnessRow, iceRow;
 @synthesize selections, milkSelection, strengthSelection, sweetnessSelection, iceSelection;
+@synthesize playButton, stopButton, resetButton, shouldContinue;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -55,6 +56,10 @@
 	// Make stuff round!
 	[self makeRound:drinkCaption roundness:10.0];
 
+	[self makeRound:playButton roundness:11.0];
+	[self makeRound:stopButton roundness:11.0];
+	[self makeRound:resetButton roundness:11.0];
+	
 	for (UIView *row in viewList) {
 		for(UIView *v in [row subviews]) {
 			if ([v isKindOfClass:[UIButton class]]) {
@@ -62,6 +67,10 @@
 			}
 		}		
 	}
+	
+	
+	// Make sure the stop flag is off on startup
+	shouldContinue = YES;
 	
 }
 
@@ -133,11 +142,16 @@
 	// Change the highlighting for the selected (and recently unselected) UIButton using transparency and fonts
 	UIButton *prevSelection = [selections valueForKey:key];
 
+	/*
 	[prevSelection titleLabel].font = [UIFont boldSystemFontOfSize:15.0];
 	prevSelection.backgroundColor = [prevSelection.backgroundColor colorWithAlphaComponent:0.60];
 	
 	[sender titleLabel].font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:15.0]; // Normalise the current selection	
 	sender.backgroundColor = [sender.backgroundColor colorWithAlphaComponent:1.0];
+	*/
+	
+	[self toggleButton:prevSelection on:NO];
+	[self toggleButton:sender on:YES];
 	
 	[selections setValue:sender forKey:key];	
 	//[selections setValue:sender forKey:[[sender currentTitle] lowercaseString]]; // Add the passed in sender (UIButton) to the selections Dictionary
@@ -147,9 +161,26 @@
 }
 
 
+- (void)toggleButton:(UIButton *)v on:(BOOL)on {
+	
+	if(on) {
+		[v titleLabel].font = [UIFont fontWithName:@"Helvetica-BoldOblique" size:15.0];
+		v.backgroundColor = [v.backgroundColor colorWithAlphaComponent:1.0];
+	}
+	else {
+		[v titleLabel].font = [UIFont boldSystemFontOfSize:15.0];
+		v.backgroundColor = [v.backgroundColor colorWithAlphaComponent:0.60];	
+	}	
+}
+
+
 - (IBAction)playCaption {
 	// Tutorial and code on: http://howtomakeiphoneapps.com/2009/08/how-to-play-a-short-sound-in-iphone-code/
 	NSLog(@"Playing!");
+	
+	// Flip the Play/Stop buttons' visibility
+	[self flipPlayStop:YES];
+	
 	NSMutableArray *sounds = [NSMutableArray arrayWithCapacity:5];
 	[sounds insertObject:@"kopi" atIndex:0];
 	
@@ -186,7 +217,7 @@
 	NSLog(@"playCaptionSounds");
 	NSString *next = [e nextObject];
 	NSLog(@"%@", next);
-	if(next != nil) {
+	if(next != nil && shouldContinue) {
 		NSString *path = [[NSBundle mainBundle] pathForResource:next ofType:@"wav"]; NSLog(@"%@", path); // Build the path string
 		NSURL *filePath = [NSURL fileURLWithPath:path isDirectory:NO]; // Make it an actual file path in the system
 		AVAudioPlayer *avp = [[AVAudioPlayer alloc] initWithContentsOfURL:filePath error:NULL]; // Init the player with the file path
@@ -195,6 +226,10 @@
 	}
 	else {
 		NSLog(@"End of caption");
+		shouldContinue = YES;
+		
+		// Flip the Stop/Play buttons back
+		[self flipPlayStop:NO];
 	}
 }
 
@@ -203,6 +238,55 @@
 	NSLog(@"Done playing!");
 	NSLog(@"%@", self);
 	[self playCaptionSounds];
+}
+
+
+- (void)flipPlayStop:(BOOL)isPlaying {
+
+	if(isPlaying) {
+		// Flip the UI to show the Stop button instead
+		playButton.hidden = YES;
+		stopButton.hidden = NO;
+	}
+	else {
+		// Flip the UI to show the Stop button instead
+		playButton.hidden = NO;
+		stopButton.hidden = YES;
+	}
+}
+
+
+- (IBAction)stopPlaying {
+	NSLog(@"Stopping!");
+	shouldContinue = NO;
+}
+
+
+- (IBAction)resetSelection {
+	// Cheap hack, but probably more efficient than looping through the default list in Drinks.plist
+	NSLog(@"Reset!");
+	// Our default selected tags are 12, 22, 33, 42	
+	NSArray *defaultSelection = [NSArray arrayWithObjects:
+								 [NSNumber numberWithInt:12],
+								 [NSNumber numberWithInt:22], 
+								 [NSNumber numberWithInt:33], 
+								 [NSNumber numberWithInt:42], nil];
+	NSEnumerator *d = [defaultSelection objectEnumerator];	
+	NSLog(@"%@", d);
+	
+	for(NSString *key in order){
+		UIButton *oldSelection = [selections objectForKey:key];
+		
+		[self toggleButton:oldSelection on:NO];
+
+		UIButton *newSelection = [self.view viewWithTag:[[d nextObject] intValue]];
+		NSLog(@"%@", newSelection);
+		[self toggleButton:newSelection on:YES];
+		
+		[selections setObject:newSelection forKey:key];
+	}
+	
+	[self setCaption];
 }
 
 /*
