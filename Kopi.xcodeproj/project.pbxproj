@@ -20,6 +20,13 @@
 		E240AAF21162021A00CF98E3 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E240AAF01162021A00CF98E3 /* libAdMobSimulator.a */; };
 		E240AB091162026B00CF98E3 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E240AB081162026B00CF98E3 /* AdViewController.m */; };
 		E24508CE1194028A007D41BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24508CD1194028A007D41BD /* AVFoundation.framework */; };
+		E24BCB4011B3AFCA00627D62 /* ChlkBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB3F11B3AFCA00627D62 /* ChlkBoard.m */; };
+		E24BCB9711B3B6CB00627D62 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB8C11B3B6CB00627D62 /* NSObject+SBJSON.m */; };
+		E24BCB9811B3B6CB00627D62 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB8E11B3B6CB00627D62 /* NSString+SBJSON.m */; };
+		E24BCB9911B3B6CB00627D62 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB9011B3B6CB00627D62 /* SBJSON.m */; };
+		E24BCB9A11B3B6CB00627D62 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB9211B3B6CB00627D62 /* SBJsonBase.m */; };
+		E24BCB9B11B3B6CB00627D62 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB9411B3B6CB00627D62 /* SBJsonParser.m */; };
+		E24BCB9C11B3B6CB00627D62 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BCB9611B3B6CB00627D62 /* SBJsonWriter.m */; };
 		E28D41B31192A2510094C255 /* gadai.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AA1192A2510094C255 /* gadai.wav */; };
 		E28D41B41192A2510094C255 /* gao.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AB1192A2510094C255 /* gao.wav */; };
 		E28D41B51192A2510094C255 /* kopi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E28D41AC1192A2510094C255 /* kopi.wav */; };
@@ -60,6 +67,21 @@
 		E240AB071162026B00CF98E3 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdViewController.h; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.h; sourceTree = SOURCE_ROOT; };
 		E240AB081162026B00CF98E3 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdViewController.m; path = ../../../iPhone/admob_iphone_sdk/IBSupport/AdViewController.m; sourceTree = SOURCE_ROOT; };
 		E24508CD1194028A007D41BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E24BCB3E11B3AFCA00627D62 /* ChlkBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChlkBoard.h; sourceTree = "<group>"; };
+		E24BCB3F11B3AFCA00627D62 /* ChlkBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChlkBoard.m; sourceTree = "<group>"; };
+		E24BCB8A11B3B6CB00627D62 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		E24BCB8B11B3B6CB00627D62 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		E24BCB8C11B3B6CB00627D62 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		E24BCB8D11B3B6CB00627D62 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		E24BCB8E11B3B6CB00627D62 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		E24BCB8F11B3B6CB00627D62 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		E24BCB9011B3B6CB00627D62 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		E24BCB9111B3B6CB00627D62 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		E24BCB9211B3B6CB00627D62 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		E24BCB9311B3B6CB00627D62 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E24BCB9411B3B6CB00627D62 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E24BCB9511B3B6CB00627D62 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E24BCB9611B3B6CB00627D62 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		E28D41AA1192A2510094C255 /* gadai.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gadai.wav; path = ../../Soundclips/gadai.wav; sourceTree = SOURCE_ROOT; };
 		E28D41AB1192A2510094C255 /* gao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gao.wav; path = ../../Soundclips/gao.wav; sourceTree = SOURCE_ROOT; };
 		E28D41AC1192A2510094C255 /* kopi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kopi.wav; path = ../../Soundclips/kopi.wav; sourceTree = SOURCE_ROOT; };
@@ -104,6 +126,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E24BCB8911B3B6CB00627D62 /* JSON */,
 				E240AB071162026B00CF98E3 /* AdViewController.h */,
 				E240AB081162026B00CF98E3 /* AdViewController.m */,
 				E240AB061162025400CF98E3 /* AdMobView.h */,
@@ -112,6 +135,8 @@
 				1D3623250D0F684500981E51 /* KopiAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* KopiViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* KopiViewController.m */,
+				E24BCB3E11B3AFCA00627D62 /* ChlkBoard.h */,
+				E24BCB3F11B3AFCA00627D62 /* ChlkBoard.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,6 +200,26 @@
 				E24508CD1194028A007D41BD /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24BCB8911B3B6CB00627D62 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E24BCB8A11B3B6CB00627D62 /* JSON.h */,
+				E24BCB8B11B3B6CB00627D62 /* NSObject+SBJSON.h */,
+				E24BCB8C11B3B6CB00627D62 /* NSObject+SBJSON.m */,
+				E24BCB8D11B3B6CB00627D62 /* NSString+SBJSON.h */,
+				E24BCB8E11B3B6CB00627D62 /* NSString+SBJSON.m */,
+				E24BCB8F11B3B6CB00627D62 /* SBJSON.h */,
+				E24BCB9011B3B6CB00627D62 /* SBJSON.m */,
+				E24BCB9111B3B6CB00627D62 /* SBJsonBase.h */,
+				E24BCB9211B3B6CB00627D62 /* SBJsonBase.m */,
+				E24BCB9311B3B6CB00627D62 /* SBJsonParser.h */,
+				E24BCB9411B3B6CB00627D62 /* SBJsonParser.m */,
+				E24BCB9511B3B6CB00627D62 /* SBJsonWriter.h */,
+				E24BCB9611B3B6CB00627D62 /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		E28D41A21192A23B0094C255 /* soundclips */ = {
@@ -262,6 +307,13 @@
 				1D3623260D0F684500981E51 /* KopiAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* KopiViewController.m in Sources */,
 				E240AB091162026B00CF98E3 /* AdViewController.m in Sources */,
+				E24BCB4011B3AFCA00627D62 /* ChlkBoard.m in Sources */,
+				E24BCB9711B3B6CB00627D62 /* NSObject+SBJSON.m in Sources */,
+				E24BCB9811B3B6CB00627D62 /* NSString+SBJSON.m in Sources */,
+				E24BCB9911B3B6CB00627D62 /* SBJSON.m in Sources */,
+				E24BCB9A11B3B6CB00627D62 /* SBJsonBase.m in Sources */,
+				E24BCB9B11B3B6CB00627D62 /* SBJsonParser.m in Sources */,
+				E24BCB9C11B3B6CB00627D62 /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,8 +12,9 @@
 #import <AudioToolbox/AudioServices.h>
 #import <AVFoundation/AVAudioPlayer.h>
 #import <QuartzCore/QuartzCore.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface KopiViewController : UIViewController <AVAudioPlayerDelegate> {
+@interface KopiViewController : UIViewController <AVAudioPlayerDelegate, CLLocationManagerDelegate> {
 
 	IBOutlet UILabel *drinkCaption;
 	
@@ -31,12 +32,26 @@
 	IBOutlet UIButton *stopButton;
 	IBOutlet UIButton *resetButton;
 	
+	IBOutlet UIView *ibAdView;
+	IBOutlet UIImageView *ibAdImage;
+	IBOutlet UILabel *ibAdPromo;
+	
+	UIView *adView;
+	UIImageView *adImage;
+	UILabel *adPromo;
+	
 	NSEnumerator *e;
 	NSArray *order;
 	NSArray *viewList;
 	NSDictionary *drinks;
 	NSMutableDictionary *selections;
 	bool *shouldContinue;
+	
+	NSString *kApikey;
+	NSString *kApiEndPoint;	
+	NSDictionary *jsonResponse;
+	CLLocationManager *locationManager;
+	
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *drinkCaption;
@@ -63,6 +78,19 @@
 
 @property (nonatomic) bool *shouldContinue;
 
+@property (nonatomic, retain) IBOutlet UIView *ibAdView;
+@property (nonatomic, retain) IBOutlet UIImageView *ibAdImage;
+@property (nonatomic, retain) IBOutlet UILabel *ibAdPromo;
+
+@property (nonatomic, retain) UIView *adView;
+@property (nonatomic, retain) UIImageView *adImage;
+@property (nonatomic, retain) UILabel *adPromo;
+
+@property (nonatomic, retain) NSString *kApikey;
+@property (nonatomic, retain) NSString *kApiEndPoint;
+@property (nonatomic, retain) NSDictionary *jsonResponse;
+@property (nonatomic, retain) CLLocationManager *locationManager;
+
 - (IBAction)addCaption:(id)sender;
 - (IBAction)playCaption;
 - (IBAction)stopPlaying;
@@ -73,6 +101,13 @@
 - (void)toggleButton:(UIButton *)v on:(BOOL)on;
 - (void)playCaptionSounds;
 - (void)isPlaying:(BOOL)isPlaying;
+
+- (IBAction)testChlkBoard;
+
+- (void)requestAd;
+- (void)showAd;
+- (void)stopUpdatingLocation;
+- (IBAction)gotoAd;
 
 /*
 static void testCallback(SystemSoundID, void* );

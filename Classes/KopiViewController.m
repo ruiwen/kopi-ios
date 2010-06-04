@@ -7,14 +7,18 @@
 //
 
 #import "KopiViewController.h"
+#import "ChlkBoard.h"
 
 @implementation KopiViewController
 
 @synthesize drinkCaption;
-@synthesize e, drinks, viewList;
+@synthesize e, drinks, viewList, order;
 @synthesize milkRow, strengthRow, sweetnessRow, iceRow;
 @synthesize selections, milkSelection, strengthSelection, sweetnessSelection, iceSelection;
 @synthesize playButton, stopButton, resetButton, shouldContinue;
+@synthesize ibAdView, adView, ibAdImage, adImage, ibAdPromo, adPromo;
+@synthesize kApikey, kApiEndPoint, jsonResponse, locationManager;
+
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -38,6 +42,9 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
  	[super viewDidLoad];
+	
+	NSLog(@"KopiViewController");
+	NSLog(@"%@", self);
 	
 	// Initialise the selections array
 	selections = [[NSMutableDictionary alloc] initWithObjectsAndKeys:milkSelection, @"milk", strengthSelection, @"strength", sweetnessSelection, @"sweetness", iceSelection, @"ice", nil];
@@ -71,6 +78,17 @@
 	
 	// Make sure the stop flag is off on startup
 	shouldContinue = YES;
+
+	// Handle the ad views
+	//self.adView = ibAdView;
+	//self.adImage = ibAdImage;
+	//self.adPromo = ibAdPromo;
+	
+	//self.adView.hidden = YES;
+	
+	// Init API
+	kApikey = @"sJPzGk6ut5Ou4j8UshpyZBA0XRL8ceD97Bp8FbvC5VHTvndrit";
+	kApiEndPoint = @"http://www.chlkboard.com/api/search.php?";
 	
 }
 
@@ -294,6 +312,15 @@
 	[self setCaption];
 }
 
+- (IBAction)testChlkBoard {
+
+	//ChlkBoard *cb = [[ChlkBoard alloc] initWithAdView:adView withAdImage:adImage withAdPromo:adPromo];
+	//ChlkBoard *cb = [[ChlkBoard alloc] init];
+	//[cb requestAd];
+	
+	[self requestAd];
+}
+
 /*
 static void testCallback(SystemSoundID sID, void* e) {
 	NSLog(@"Test callback: %d, %@", sID, e);
@@ -326,6 +353,126 @@ static void playCaptionSound(SystemSoundID soundID, NSEnumerator *e) {
 	
 }
 */
+
+- (void)showAd {
+	
+	// Load up the image
+	NSData *imagedata = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:[[jsonResponse valueForKey:@"pic"] objectAtIndex:0]]];
+	UIImage *image = [[UIImage alloc] initWithData:imagedata];
+	self.ibAdImage.image = image;
+	[ibAdImage sizeToFit];
+	NSLog(@"adImage: %@", ibAdImage);
+	
+	
+	// Display the promo
+	self.ibAdPromo.text = [[jsonResponse valueForKey:@"promo"] objectAtIndex:0];
+	NSLog(@"adPromo: %@", self.ibAdPromo);
+	
+	NSLog(@"Adview: %@", self.ibAdView);
+	self.ibAdView.hidden = NO;
+	
+	NSLog(@"Got stuff!");
+	
+}
+
+- (void)requestAd {
+	
+	// Init location manager
+	locationManager = [[CLLocationManager alloc] init];
+	locationManager.delegate = self;
+	locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+	[locationManager startUpdatingLocation];
+	NSLog(@"Started updating location!");
+	
+	// Set the timeout
+	[self performSelector:@selector(stopUpdatingLocation) withObject:@"Timed Out" afterDelay:10.0];
+}
+
+- (void)stopUpdatingLocation {
+	NSLog(@"Stopped getting location");
+	[locationManager stopUpdatingLocation];
+    locationManager.delegate = nil;    
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	
+	CLLocationDegrees lat = newLocation.coordinate.latitude;
+	CLLocationDegrees lng = newLocation.coordinate.longitude;
+	
+	// Once we're satisfied that we have a proper location, stop the polling
+	if(lat && lng) {
+		[self stopUpdatingLocation];
+	}
+	else {
+		return;
+	}
+	
+	// Build API query
+	NSString *apiUrl = [kApiEndPoint stringByAppendingFormat:@"key=%@&lat=%f&lng=%f&n=1", kApikey, lat, lng];
+	if(!apiUrl) {
+		NSLog(@"%f", lat);
+		NSLog(@"%f", lng);
+		NSLog(@"%@", kApikey);
+		NSLog(@"%@", apiUrl);
+		NSLog(@"Blank URL!");
+		return; // Blank URL! Abort!
+	}	   
+	
+	// Retrieve JSON call
+	NSString *data = [NSString stringWithContentsOfURL:[NSURL URLWithString:apiUrl]];
+	
+	/*
+	 NSLog(@"%@", [data JSONValue]);
+	 NSLog(@"%@", [[[data JSONValue] valueForKey:@"results"] class]);
+	 NSLog(@"%@", [[[data JSONValue] valueForKey:@"results"] valueForKey:@"pic"]);
+	 */
+	
+	// Pull the real stuff
+	jsonResponse = [[data JSONValue] valueForKey:@"results"];
+	[jsonResponse retain];
+	NSLog(@"%@", jsonResponse);
+	
+	[self showAd];
+	
+	
+	/*
+	 UIWebView *w = [[UIWebView alloc] initWithFrame:[self.view convertRect:self.view.frame fromView:self.view.superview]];
+	 w.delegate = self;
+	 NSLog(@"%@", self.view);
+	 NSLog(@"%@", [self.view subviews]);
+	 NSLog(@"%@", [jsonResults count]);
+	 //self.view.hidden = YES;
+	 
+	 if([[jsonResults valueForKey:@"url"] count] > 0){
+	 [w loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[jsonResults valueForKey:@"url"] objectAtIndex:0]]]];
+	 }
+	 else {
+	 // DEBUG ONLY!
+	 [w loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
+	 }*/
+	
+	/*
+	 if([[jsonResults valueForKey:@"url"] count] > 0){
+	 [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[jsonResults valueForKey:@"url"] objectAtIndex:0]]]];
+	 }
+	 else {
+	 // DEBUG ONLY!
+	 [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://google.com"]]];
+	 }*/
+	
+	
+	//[self.view loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[jsonResults valueForKey:@"url"]]]];
+	//NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:[jsonResults valueForKey:@"pic"]];*/
+	
+}
+
+
+- (IBAction)gotoAd {
+	NSLog(@"Goto Ad");
+	//NSLog([NSURL URLWithString:[[jsonResponse objectForKey:@"url"] objectAtIndex:0]]);
+	//NSURL *url = [NSURL URLWithString:[[jsonResponse objectForKey:@"url"] objectAtIndex:0]];
+	//[[UIApplication sharedApplication] openURL:url];
+}
 									   
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
