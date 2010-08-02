@@ -12,6 +12,7 @@
 #import <AudioToolbox/AudioServices.h>
 #import <AVFoundation/AVAudioPlayer.h>
 #import <QuartzCore/QuartzCore.h>
+#import "AdViewController.h"
 
 @interface KopiViewController : UIViewController <AVAudioPlayerDelegate> {
 
@@ -37,6 +38,8 @@
 	NSDictionary *drinks;
 	NSMutableDictionary *selections;
 	bool *shouldContinue;
+	
+	IBOutlet AdViewController *advc;
 }
 
 @property (nonatomic, retain) IBOutlet UILabel *drinkCaption;
@@ -62,6 +65,8 @@
 @property (nonatomic, retain) NSMutableDictionary *selections;
 
 @property (nonatomic) bool *shouldContinue;
+
+@property (nonatomic, retain) IBOutlet AdViewController *advc;
 
 - (IBAction)addCaption:(id)sender;
 - (IBAction)playCaption;

@@ -14,19 +14,26 @@
  * See http://developer.apple.com/releasenotes/DeveloperTools/RN-InterfaceBuilder/index.html#//apple_ref/doc/uid/TP40001016-SW5
  */
 
-#define AD_REFRESH_PERIOD 60.0 // display fresh ads once per minute
-
 #import <UIKit/UIKit.h>
 #import "AdMobDelegateProtocol.h";
 @class AdMobView;
 
 @interface AdViewController : UIViewController<AdMobDelegate> {
 
-  AdMobView *adMobAd;  // the actual ad; self.view is a placeholder to indicate where the ad should be placed; intentially _not_ an IBOutlet
+  // The actual ad, intentially _not_ an IBOutlet; instead, assign this controller's
+  // view outlet (defined by UIViewController) to a UIView in Interface Builder
+  // to indicate where the ad should be placed.
+  AdMobView *adMobAd;
+
   NSTimer *refreshTimer; // timer to get fresh ads
+  
+  UIViewController *currentViewController;
 
 }
 
-- (void)refreshAd:(NSTimer *)timer;
+// The currentViewController used by the AdMobView to display modal views, e.g. when
+// users tap on ads. Set to a view controller higher up in the view controller
+// hierarchy, such as the navigation controller or split view controller.
+@property (nonatomic,assign) IBOutlet UIViewController *currentViewController;
 
 @end

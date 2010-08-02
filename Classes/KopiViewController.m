@@ -7,6 +7,7 @@
 //
 
 #import "KopiViewController.h"
+#import "AdViewController.h"
 
 @implementation KopiViewController
 
@@ -15,6 +16,7 @@
 @synthesize milkRow, strengthRow, sweetnessRow, iceRow;
 @synthesize selections, milkSelection, strengthSelection, sweetnessSelection, iceSelection;
 @synthesize playButton, stopButton, resetButton, shouldContinue;
+@synthesize advc;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -350,6 +352,7 @@ static void playCaptionSound(SystemSoundID soundID, NSEnumerator *e) {
 	[viewList release];
 	[drinks release];
 	[drinkCaption release];
+	[advc release];
     [super dealloc];
 }
 
