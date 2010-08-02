@@ -73,7 +73,6 @@
 	
 	// Make sure the stop flag is off on startup
 	shouldContinue = YES;
-	
 }
 
 
@@ -111,7 +110,7 @@
 	// Condensed while Kosong
 	if([[sender currentTitle] isEqualToString:@"Condensed"] && [[[selections valueForKey:@"sweetness"] currentTitle] isEqualToString:@"None"]) {
 		UIAlertView *kosongalert = [[UIAlertView alloc] initWithTitle:@"Whoops!" 
-															  message:@"You have indicated that you'd like your coffee unsweetened. Choosing Condensed milk now will make it sweet. Please make another type of milk for your coffee." 
+															  message:@"You have indicated that you'd like your coffee unsweetened. Choosing Condensed milk now will make it sweet. Please select another type of milk for your coffee."
 															 delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
 		[kosongalert show];
 		[kosongalert release];
